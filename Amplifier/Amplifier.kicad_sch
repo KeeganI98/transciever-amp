@@ -3155,6 +3155,418 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "amp:RLM-23-1WL+"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0.762 24.892 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "RLM-23-1WL+"
+				(at 0.254 22.352 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "amp:RLM231WL"
+				(at 36.83 -79.68 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.minicircuits.com/WebStore/dashboard.html?model=RLM-23-1WL%2B"
+				(at 36.83 -179.68 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "+5 to +30 dBm Limiter 50 Broadband 100 to 2500 MHz"
+				(at -29.718 34.29 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFN" "Mini-Circuits"
+				(at 36.83 -479.68 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "MFP" "RLM-23-1WL+"
+				(at 36.83 -579.68 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "OctopartURL" "https://octopart.com/part/mini-circuits/RLM-23-1WL+"
+				(at -30.226 31.242 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSCPart" "C7288002"
+				(at -26.416 31.242 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RLM-23-1WL+_1_1"
+				(rectangle
+					(start -15.24 20.32)
+					(end 15.24 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -20.32 3.81 0)
+					(length 5.08)
+					(name "GROUND_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 13.97 0)
+					(length 5.08)
+					(name "INPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 1.27 0)
+					(length 5.08)
+					(name "GROUND_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -1.27 0)
+					(length 5.08)
+					(name "GROUND_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -3.81 0)
+					(length 5.08)
+					(name "GROUND_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -6.35 0)
+					(length 5.08)
+					(name "GROUND_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -8.89 0)
+					(length 5.08)
+					(name "GROUND_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -20.32 -11.43 0)
+					(length 5.08)
+					(name "GROUND_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -11.43 180)
+					(length 5.08)
+					(name "GROUND_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 13.97 180)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -8.89 180)
+					(length 5.08)
+					(name "GROUND_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -6.35 180)
+					(length 5.08)
+					(name "GROUND_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -3.81 180)
+					(length 5.08)
+					(name "GROUND_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -1.27 180)
+					(length 5.08)
+					(name "GROUND_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 1.27 180)
+					(length 5.08)
+					(name "GROUND_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 3.81 180)
+					(length 5.08)
+					(name "GROUND_14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "amp:SKY65111-348LF"
 			(pin_names
 				(offset 0.254)
@@ -3757,16 +4169,6 @@
 		)
 		(uuid "1c823f5e-4103-45be-b00d-fff2f420e07f")
 	)
-	(text "Diode to ground?"
-		(exclude_from_sim no)
-		(at 210.566 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1d0c66f5-fbbf-47cd-8156-262d442d21c6")
-	)
 	(text "Amplifier"
 		(exclude_from_sim no)
 		(at 18.034 15.24 0)
@@ -3797,9 +4199,19 @@
 		)
 		(uuid "370cb224-b3a8-4f2e-ac95-9e5295649a3f")
 	)
+	(text "https://www.digikey.com/en/products/filter/trimmer-potentiometers/80"
+		(exclude_from_sim no)
+		(at 209.55 18.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38f846e7-19a6-491b-8c84-ed9c681df2b6")
+	)
 	(text "preamp???"
 		(exclude_from_sim no)
-		(at 144.018 104.902 0)
+		(at 192.024 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3829,6 +4241,17 @@
 		)
 		(uuid "53170a39-c3bb-4d6a-a9e1-8e97a52f0e0a")
 	)
+	(text "+5 to +30 dBm Limiter 50 Broadband 100 to 2500 MHz\n0dBm Output"
+		(exclude_from_sim no)
+		(at 133.096 105.156 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ceadb03-afd1-4bc7-b2ba-350aad131c8e")
+	)
 	(text "DONT NEED PHASE SHIFTER \nBC THAT IS HANDLED BY\nLILYGO TRANSCEIVER CIRCUIT"
 		(exclude_from_sim no)
 		(at 316.992 63.246 0)
@@ -3839,13 +4262,14 @@
 		)
 		(uuid "641f7930-259a-4a9f-b7ee-8425b80a3c1c")
 	)
-	(text "Use potentiometers\n\nmaybe fixed R stage 3\nadjust stage1/2?\n>read datasheet"
+	(text "Use potentiometers\n\nmaybe fixed R stage 3\nadjust stage1/2?\n>2.5-2.8V\n>need stable voltage.\n>>>3v3 reg? \n>two pots w/ jumper. both on same control vs separate control.\n>>2x2 pins w/ jumper A/1,2/B???"
 		(exclude_from_sim no)
-		(at 209.042 34.798 0)
+		(at 191.516 32.766 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "7526d87b-830c-47ed-a53b-78b0bcd3a06e")
 	)
@@ -3861,7 +4285,7 @@
 	)
 	(text "Limiter"
 		(exclude_from_sim no)
-		(at 84.836 103.886 0)
+		(at 100.584 103.378 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3901,10 +4325,28 @@
 		(uuid "d3e4c6aa-bad0-4a89-97bd-f24dce798d92")
 	)
 	(junction
+		(at 120.65 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03261a6d-089a-4ebc-a03a-3d93b12b86ac")
+	)
+	(junction
+		(at 161.29 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "106ecad4-9fb7-4b7e-8c17-13dd83301a56")
+	)
+	(junction
 		(at 73.66 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ac1105d-4ad4-4220-9f77-9baa0533d863")
+		(uuid "28e5ac56-7d5d-4091-bac9-d27c36901b78")
+	)
+	(junction
+		(at 120.65 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c05f1fc-5d85-4051-a6e5-20e069e1bb78")
 	)
 	(junction
 		(at 133.35 31.75)
@@ -3917,6 +4359,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39668b18-d69a-426b-8f67-91f9a647a6a9")
+	)
+	(junction
+		(at 161.29 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "396bbe43-a10d-47e7-8890-168e7e9f1bd7")
 	)
 	(junction
 		(at 130.81 46.99)
@@ -3961,6 +4409,12 @@
 		(uuid "468557ff-6808-4eab-890f-bec69b43f1c4")
 	)
 	(junction
+		(at 81.28 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d2c1c36-8387-4a21-a71c-69ce633cc84c")
+	)
+	(junction
 		(at 154.94 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3997,6 +4451,12 @@
 		(uuid "737ddd90-19b1-4506-b7a6-da4eb90fa294")
 	)
 	(junction
+		(at 120.65 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73cd70c5-8f74-401a-9bf2-ddecb062bba3")
+	)
+	(junction
 		(at 66.04 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4021,10 +4481,22 @@
 		(uuid "89c6ccf5-0075-4c79-82b7-93382504acc0")
 	)
 	(junction
+		(at 120.65 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "901e87ff-bc85-4a02-9362-16187441935e")
+	)
+	(junction
 		(at 60.96 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "908a6323-6907-4245-b44f-de413efb1395")
+	)
+	(junction
+		(at 161.29 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90c81d2e-7ba6-45f2-8af6-41375c981aa5")
 	)
 	(junction
 		(at 49.53 69.85)
@@ -4051,16 +4523,34 @@
 		(uuid "b2cac3bb-7dca-496e-9d9a-f3de3d2cc3a7")
 	)
 	(junction
+		(at 140.97 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4585fb9-a4c3-4a87-812e-603a0285f59f")
+	)
+	(junction
+		(at 161.29 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b911ba33-a04b-4365-8e52-cb80e619e482")
+	)
+	(junction
+		(at 161.29 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbc664b3-8306-4029-a632-f7b462879e47")
+	)
+	(junction
 		(at 130.81 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c03c136c-2293-4e6a-a5bd-3e0028446c22")
 	)
 	(junction
-		(at 81.28 69.85)
+		(at 161.29 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c7f22237-ff31-44fe-9450-62e924f37d92")
+		(uuid "cac3f456-965c-49e7-8e71-8ffb58a1b32f")
 	)
 	(junction
 		(at 66.04 46.99)
@@ -4079,6 +4569,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e83d2215-cfb4-4f2e-a009-e6d95be70c47")
+	)
+	(junction
+		(at 120.65 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9602adf-0909-4268-a898-aeefd2c435e4")
+	)
+	(junction
+		(at 120.65 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef59a2bf-8f0a-46d1-950f-dda30c3cec51")
 	)
 	(wire
 		(pts
@@ -4152,7 +4654,7 @@
 	)
 	(polyline
 		(pts
-			(xy 139.7 165.1) (xy 190.5 165.1)
+			(xy 190.5 165.1) (xy 190.5 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4222,6 +4724,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 135.89) (xy 120.65 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bf9935e-37e2-4e49-87b4-fedd78fd33ad")
+	)
+	(wire
+		(pts
 			(xy 80.01 58.42) (xy 81.28 58.42)
 		)
 		(stroke
@@ -4232,7 +4744,7 @@
 	)
 	(polyline
 		(pts
-			(xy 83.82 165.1) (xy 83.82 101.6)
+			(xy 99.695 165.1) (xy 99.695 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4259,6 +4771,16 @@
 			(type default)
 		)
 		(uuid "21ce1c50-1182-4afe-80d4-514c3ae48052")
+	)
+	(wire
+		(pts
+			(xy 161.29 148.59) (xy 161.29 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "295e8a84-ae71-4848-9923-91b183a7696e")
 	)
 	(wire
 		(pts
@@ -4309,6 +4831,16 @@
 			(type default)
 		)
 		(uuid "32a61f56-376c-4351-a7fb-cd331fdb2fa2")
+	)
+	(wire
+		(pts
+			(xy 161.29 133.35) (xy 161.29 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "341d7b6f-0b26-461c-bcc1-477deb4ba157")
 	)
 	(polyline
 		(pts
@@ -4369,6 +4901,16 @@
 			(type default)
 		)
 		(uuid "4595ca20-e6b5-4381-95fc-763fe54949fa")
+	)
+	(wire
+		(pts
+			(xy 120.65 146.05) (xy 120.65 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d116eba-28ae-4569-a678-ddd81477cdbe")
 	)
 	(wire
 		(pts
@@ -4442,17 +4984,7 @@
 	)
 	(polyline
 		(pts
-			(xy 190.5 165.1) (xy 190.5 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5af203f5-dd20-49de-bbff-d2d3397e10d3")
-	)
-	(polyline
-		(pts
-			(xy 12.7 165.1) (xy 83.82 165.1)
+			(xy 12.7 165.1) (xy 99.695 165.1)
 		)
 		(stroke
 			(width 0)
@@ -4562,7 +5094,7 @@
 	)
 	(polyline
 		(pts
-			(xy 139.7 165.1) (xy 139.7 101.6)
+			(xy 190.5 165.1) (xy 190.5 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4622,6 +5154,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 138.43) (xy 120.65 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac00e88-6da8-4937-8d5f-562aebc2e40e")
+	)
+	(wire
+		(pts
 			(xy 81.28 58.42) (xy 81.28 69.85)
 		)
 		(stroke
@@ -4632,6 +5174,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 143.51) (xy 161.29 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d347426-8885-452c-bdf6-60adf193fe5c")
+	)
+	(wire
+		(pts
 			(xy 133.35 31.75) (xy 133.35 34.29)
 		)
 		(stroke
@@ -4639,6 +5191,26 @@
 			(type default)
 		)
 		(uuid "818b35d7-0107-4d4b-92b1-07e87dc6b8e2")
+	)
+	(wire
+		(pts
+			(xy 161.29 135.89) (xy 161.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b5a1a4-dd0c-45de-beb6-5cfbd99f8952")
+	)
+	(wire
+		(pts
+			(xy 120.65 148.59) (xy 120.65 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855a815e-9ae2-476a-9dd1-7e4de75878af")
 	)
 	(wire
 		(pts
@@ -4732,6 +5304,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 140.97) (xy 120.65 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c6a4693-67e3-4b76-9aee-46bf2dc06cf4")
+	)
+	(wire
+		(pts
 			(xy 160.02 58.42) (xy 160.02 57.15)
 		)
 		(stroke
@@ -4769,6 +5351,16 @@
 			(type default)
 		)
 		(uuid "90881775-e007-48c9-b0a1-88628653fe1b")
+	)
+	(wire
+		(pts
+			(xy 161.29 156.21) (xy 140.97 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f48a7a-f79a-4500-89df-09d2bb33dc86")
 	)
 	(wire
 		(pts
@@ -4830,15 +5422,35 @@
 		)
 		(uuid "a88e3bc7-2524-49fc-aaed-40fe414a38e0")
 	)
+	(wire
+		(pts
+			(xy 161.29 138.43) (xy 161.29 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab3d75b7-6f91-47e1-bf20-89e8c3423629")
+	)
 	(polyline
 		(pts
-			(xy 83.82 165.1) (xy 139.7 165.1)
+			(xy 99.695 165.1) (xy 190.5 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ab605ead-5f37-44c7-bb57-a97a90421712")
+	)
+	(wire
+		(pts
+			(xy 120.65 156.21) (xy 120.65 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad6ceeb5-ee9e-4b8b-9812-6e561a2019d9")
 	)
 	(wire
 		(pts
@@ -4909,6 +5521,16 @@
 			(type default)
 		)
 		(uuid "bff3faaa-e7e2-435c-9bae-81765ac1dacc")
+	)
+	(wire
+		(pts
+			(xy 161.29 146.05) (xy 161.29 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c083952b-6802-4d69-b43e-478ec2554c7e")
 	)
 	(wire
 		(pts
@@ -5112,6 +5734,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 143.51) (xy 120.65 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e883f647-17a9-4d3f-a81e-2b9ba8425db8")
+	)
+	(wire
+		(pts
 			(xy 44.45 31.75) (xy 46.99 31.75)
 		)
 		(stroke
@@ -5162,6 +5794,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 140.97) (xy 161.29 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf1d87e-e7f1-44a4-8d05-afaa2fe1fa92")
+	)
+	(wire
+		(pts
 			(xy 140.97 69.85) (xy 146.05 69.85)
 		)
 		(stroke
@@ -5169,6 +5811,16 @@
 			(type default)
 		)
 		(uuid "ee604a0e-2999-4fb9-8676-2e4ed868a6fc")
+	)
+	(wire
+		(pts
+			(xy 140.97 156.21) (xy 120.65 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9b3b39-08d3-418a-958f-6486ee07b96f")
 	)
 	(wire
 		(pts
@@ -6675,7 +7327,6 @@
 	(global_label "RFin"
 		(shape input)
 		(at 38.1 31.75 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8637,6 +9288,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 140.97 156.21 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "55174164-92a3-401a-9f0b-be7cb89fb306")
+		(property "Reference" "#PWR06"
+			(at 140.97 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 161.798 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 140.97 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d035ae6-7d5e-44f7-a23d-ba7c088580dc")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/25c93556-9645-451f-b1cc-68bc7304ee85"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "amp:1.2nH")
 		(at 60.96 66.04 270)
 		(mirror x)
@@ -9101,7 +9830,7 @@
 	)
 	(symbol
 		(lib_id "amp:MAX2633EUT+T")
-		(at 46.99 132.08 0)
+		(at 58.42 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9112,7 +9841,7 @@
 		(fields_autoplaced yes)
 		(uuid "7eaf66a4-fd7b-4dda-a91e-25fc97684938")
 		(property "Reference" "U2"
-			(at 46.355 119.38 0)
+			(at 57.785 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9122,7 +9851,7 @@
 			)
 		)
 		(property "Value" "MAX2633EUT+T"
-			(at 46.355 121.92 0)
+			(at 57.785 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9132,7 +9861,7 @@
 			)
 		)
 		(property "Footprint" "amp:21-0058I_MXM"
-			(at 25.4 124.968 0)
+			(at 36.83 127.508 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9144,7 +9873,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max2630-max2633.pdf"
-			(at 25.4 124.968 0)
+			(at 36.83 127.508 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9156,7 +9885,7 @@
 			)
 		)
 		(property "Description" "RF Amplifier IC Cellular, VHF, GPS, ISM, PCS, Set Top Box, WLAN, WLL 100MHz ~ 1GHz SOT-23-6"
-			(at 46.99 132.08 0)
+			(at 58.42 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9167,7 +9896,7 @@
 			)
 		)
 		(property "JLCPart" "C490978"
-			(at 46.99 132.08 0)
+			(at 58.42 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9178,7 +9907,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/analog-devices/MAX2633EUT+T"
-			(at 46.99 132.08 0)
+			(at 58.42 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10242,6 +10971,176 @@
 			(project "Amplifier"
 				(path "/25c93556-9645-451f-b1cc-68bc7304ee85"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp:RLM-23-1WL+")
+		(at 140.97 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dc690bac-e3de-45b7-a34a-15c24a7ecf5f")
+		(property "Reference" "U3"
+			(at 140.97 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RLM-23-1WL+"
+			(at 140.97 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "amp:RLM231WL"
+			(at 177.8 216.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.minicircuits.com/WebStore/dashboard.html?model=RLM-23-1WL%2B"
+			(at 177.8 316.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "+5 to +30 dBm Limiter 50 Broadband 100 to 2500 MHz"
+			(at 111.252 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "Mini-Circuits"
+			(at 177.8 616.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "MFP" "RLM-23-1WL+"
+			(at 177.8 716.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "OctopartURL" "https://octopart.com/part/mini-circuits/RLM-23-1WL+"
+			(at 110.744 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSCPart" "C7288002"
+			(at 114.554 105.918 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "6c29c2da-00c2-4b55-862e-29edeaad6287")
+		)
+		(pin "4"
+			(uuid "a544479d-f0a8-4b1b-8040-e485558e7405")
+		)
+		(pin "12"
+			(uuid "c2a7c6cb-c31c-4178-a4c1-9c1bd96c2b11")
+		)
+		(pin "6"
+			(uuid "ec8144c2-da79-47ba-aab2-ee0ad2da4144")
+		)
+		(pin "8"
+			(uuid "da866e4e-51f8-479a-915a-e16ce475bcd1")
+		)
+		(pin "10"
+			(uuid "45a8e07d-8df2-46c5-8f32-b8a2400ec245")
+		)
+		(pin "11"
+			(uuid "977ff019-eea7-4f35-9b7e-929b4f0f8823")
+		)
+		(pin "5"
+			(uuid "dbf7aaee-ad5d-4881-83f7-e45cd4d8d7fd")
+		)
+		(pin "3"
+			(uuid "72317fb9-b8f5-492a-a0e5-76fc5a8cd35c")
+		)
+		(pin "7"
+			(uuid "8032475b-eac0-446e-ba34-847d35f935b9")
+		)
+		(pin "1"
+			(uuid "10cea5ba-0b7d-423e-bf53-661680d479ce")
+		)
+		(pin "16"
+			(uuid "ab06b66f-ce4b-4433-a377-b8a939806312")
+		)
+		(pin "15"
+			(uuid "22c8ee0f-4fcb-408a-b43b-20f7368dd0b0")
+		)
+		(pin "13"
+			(uuid "e1c5f8f2-a5b1-4363-8334-375f0f0210cd")
+		)
+		(pin "14"
+			(uuid "10e2e53e-9b05-43be-8eb2-986a31273192")
+		)
+		(pin "2"
+			(uuid "94e62a33-7350-401d-88bb-2825ae6adee0")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/25c93556-9645-451f-b1cc-68bc7304ee85"
+					(reference "U3")
 					(unit 1)
 				)
 			)
