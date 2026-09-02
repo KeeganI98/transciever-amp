@@ -6,7 +6,7 @@
 	(paper "A")
 	(title_block
 		(title "915Mhz Amp")
-		(date "2026-08-22")
+		(date "2026-09-01")
 		(rev "0")
 	)
 	(lib_symbols
@@ -4209,9 +4209,9 @@
 		)
 		(uuid "38f846e7-19a6-491b-8c84-ed9c681df2b6")
 	)
-	(text "preamp???"
+	(text "Male SMA Connector on Radio Side"
 		(exclude_from_sim no)
-		(at 192.024 104.14 0)
+		(at 203.454 124.968 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4222,7 +4222,7 @@
 	)
 	(text "\nneed attenuator prior\n^^^dont need this, power is adjustable in meshtastic app\n^^^would need to verify max receive power(attn on recieve side) \n^^^would need to verify it actually affects power\n^^^default was set to 30dBm, which is higher than the module can output\n"
 		(exclude_from_sim no)
-		(at 61.976 91.44 0)
+		(at 59.944 86.868 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4230,6 +4230,17 @@
 			(justify left)
 		)
 		(uuid "44133a60-fb9a-414f-9dbe-09e3b5331c66")
+	)
+	(text "5dBm Max Input"
+		(exclude_from_sim no)
+		(at 97.79 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "455b45ea-f3e7-420f-9c52-781559f8f95b")
 	)
 	(text "Gain Adjust"
 		(exclude_from_sim no)
@@ -4243,12 +4254,12 @@
 	)
 	(text "+5 to +30 dBm Limiter 50 Broadband 100 to 2500 MHz\n0dBm Output"
 		(exclude_from_sim no)
-		(at 133.096 105.156 0)
+		(at 189.738 104.648 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5ceadb03-afd1-4bc7-b2ba-350aad131c8e")
 	)
@@ -4275,13 +4286,24 @@
 	)
 	(text "LNA"
 		(exclude_from_sim no)
-		(at 15.494 104.14 0)
+		(at 14.986 103.378 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "8668dda6-b165-486f-8e46-cff87770de7b")
+	)
+	(text "Female SMA Connector on Antenna Side"
+		(exclude_from_sim no)
+		(at 203.708 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a10bf3a5-1d36-4242-b8e5-d5bead69c5ad")
 	)
 	(text "Limiter"
 		(exclude_from_sim no)
@@ -4325,12 +4347,6 @@
 		(uuid "d3e4c6aa-bad0-4a89-97bd-f24dce798d92")
 	)
 	(junction
-		(at 120.65 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "03261a6d-089a-4ebc-a03a-3d93b12b86ac")
-	)
-	(junction
 		(at 161.29 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4359,12 +4375,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39668b18-d69a-426b-8f67-91f9a647a6a9")
-	)
-	(junction
-		(at 161.29 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "396bbe43-a10d-47e7-8890-168e7e9f1bd7")
 	)
 	(junction
 		(at 130.81 46.99)
@@ -4445,16 +4455,16 @@
 		(uuid "67dc4425-32c4-489e-8748-858c1c1ebe1a")
 	)
 	(junction
+		(at 161.29 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7068f15e-a940-4c54-91d0-9bebbaa62f44")
+	)
+	(junction
 		(at 167.64 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "737ddd90-19b1-4506-b7a6-da4eb90fa294")
-	)
-	(junction
-		(at 120.65 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73cd70c5-8f74-401a-9bf2-ddecb062bba3")
 	)
 	(junction
 		(at 66.04 34.29)
@@ -4481,6 +4491,18 @@
 		(uuid "89c6ccf5-0075-4c79-82b7-93382504acc0")
 	)
 	(junction
+		(at 120.65 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e1e5e3b-b615-4fda-b00b-eb19eb59fd5e")
+	)
+	(junction
+		(at 161.29 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8e66e8b0-dcb3-45b5-b086-ea242d5eb7d0")
+	)
+	(junction
 		(at 120.65 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4503,6 +4525,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95fce411-21bc-4974-9109-4525814a0699")
+	)
+	(junction
+		(at 120.65 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a06b1511-5016-4bd6-afb7-0141851d98c9")
 	)
 	(junction
 		(at 156.21 24.13)
@@ -4529,12 +4557,6 @@
 		(uuid "b4585fb9-a4c3-4a87-812e-603a0285f59f")
 	)
 	(junction
-		(at 161.29 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b911ba33-a04b-4365-8e52-cb80e619e482")
-	)
-	(junction
 		(at 161.29 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4547,16 +4569,16 @@
 		(uuid "c03c136c-2293-4e6a-a5bd-3e0028446c22")
 	)
 	(junction
-		(at 161.29 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cac3f456-965c-49e7-8e71-8ffb58a1b32f")
-	)
-	(junction
 		(at 66.04 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4a85788-6c0e-416a-9b57-255320571173")
+	)
+	(junction
+		(at 120.65 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d5a32da5-33c2-4599-8082-d8258e91defe")
 	)
 	(junction
 		(at 73.66 58.42)
@@ -4571,10 +4593,10 @@
 		(uuid "e83d2215-cfb4-4f2e-a009-e6d95be70c47")
 	)
 	(junction
-		(at 120.65 143.51)
+		(at 161.29 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e9602adf-0909-4268-a898-aeefd2c435e4")
+		(uuid "e9066046-faee-4399-8897-a6245d27584c")
 	)
 	(junction
 		(at 120.65 138.43)
@@ -4780,7 +4802,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "295e8a84-ae71-4848-9923-91b183a7696e")
+		(uuid "28333a18-0739-404e-8bd0-37a450615df9")
 	)
 	(wire
 		(pts
@@ -4901,16 +4923,6 @@
 			(type default)
 		)
 		(uuid "4595ca20-e6b5-4381-95fc-763fe54949fa")
-	)
-	(wire
-		(pts
-			(xy 120.65 146.05) (xy 120.65 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d116eba-28ae-4569-a678-ddd81477cdbe")
 	)
 	(wire
 		(pts
@@ -5164,6 +5176,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 143.51) (xy 161.29 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ac7490f-d60d-4f09-9d60-b6a1f1ff1be6")
+	)
+	(wire
+		(pts
 			(xy 81.28 58.42) (xy 81.28 69.85)
 		)
 		(stroke
@@ -5174,7 +5196,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 143.51) (xy 161.29 146.05)
+			(xy 161.29 140.97) (xy 161.29 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5201,16 +5223,6 @@
 			(type default)
 		)
 		(uuid "82b5a1a4-dd0c-45de-beb6-5cfbd99f8952")
-	)
-	(wire
-		(pts
-			(xy 120.65 148.59) (xy 120.65 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "855a815e-9ae2-476a-9dd1-7e4de75878af")
 	)
 	(wire
 		(pts
@@ -5444,13 +5456,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 156.21) (xy 120.65 148.59)
+			(xy 120.65 148.59) (xy 120.65 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ad6ceeb5-ee9e-4b8b-9812-6e561a2019d9")
+	)
+	(wire
+		(pts
+			(xy 161.29 146.05) (xy 161.29 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b093655f-96bd-460a-8d31-3510408955f0")
 	)
 	(wire
 		(pts
@@ -5524,16 +5546,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 146.05) (xy 161.29 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c083952b-6802-4d69-b43e-478ec2554c7e")
-	)
-	(wire
-		(pts
 			(xy 66.04 34.29) (xy 74.93 34.29)
 		)
 		(stroke
@@ -5551,6 +5563,16 @@
 			(type default)
 		)
 		(uuid "c46813e9-8ff5-4d5f-b9c5-fecedda9f767")
+	)
+	(wire
+		(pts
+			(xy 120.65 146.05) (xy 120.65 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b9368d-a7ce-4080-8b9f-e1374bad9142")
 	)
 	(wire
 		(pts
@@ -5734,7 +5756,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 143.51) (xy 120.65 140.97)
+			(xy 120.65 140.97) (xy 120.65 143.51)
 		)
 		(stroke
 			(width 0)
@@ -5791,16 +5813,6 @@
 			(type default)
 		)
 		(uuid "ed5a3f30-a30e-4a24-901b-d7985b951edf")
-	)
-	(wire
-		(pts
-			(xy 161.29 140.97) (xy 161.29 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "edf1d87e-e7f1-44a4-8d05-afaa2fe1fa92")
 	)
 	(wire
 		(pts
@@ -5861,6 +5873,16 @@
 			(type default)
 		)
 		(uuid "f82fefff-9065-4fe9-adb3-26c12f1439d8")
+	)
+	(wire
+		(pts
+			(xy 120.65 143.51) (xy 120.65 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb4e2838-503b-4036-8438-02a2ddabea22")
 	)
 	(image
 		(at 379.73 113.03)
@@ -10979,6 +11001,7 @@
 	(symbol
 		(lib_id "amp:RLM-23-1WL+")
 		(at 140.97 137.16 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10986,7 +11009,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dc690bac-e3de-45b7-a34a-15c24a7ecf5f")
 		(property "Reference" "U3"
 			(at 140.97 111.76 0)
@@ -11009,7 +11031,7 @@
 			)
 		)
 		(property "Footprint" "amp:RLM231WL"
-			(at 177.8 216.84 0)
+			(at 104.14 216.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11021,7 +11043,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.minicircuits.com/WebStore/dashboard.html?model=RLM-23-1WL%2B"
-			(at 177.8 316.84 0)
+			(at 104.14 316.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11033,7 +11055,7 @@
 			)
 		)
 		(property "Description" "+5 to +30 dBm Limiter 50 Broadband 100 to 2500 MHz"
-			(at 111.252 102.87 0)
+			(at 170.688 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11044,7 +11066,7 @@
 			)
 		)
 		(property "MFN" "Mini-Circuits"
-			(at 177.8 616.84 0)
+			(at 104.14 616.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11056,7 +11078,7 @@
 			)
 		)
 		(property "MFP" "RLM-23-1WL+"
-			(at 177.8 716.84 0)
+			(at 104.14 716.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11068,7 +11090,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/mini-circuits/RLM-23-1WL+"
-			(at 110.744 105.918 0)
+			(at 171.196 105.918 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11079,7 +11101,7 @@
 			)
 		)
 		(property "LCSCPart" "C7288002"
-			(at 114.554 105.918 0)
+			(at 167.386 105.918 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
