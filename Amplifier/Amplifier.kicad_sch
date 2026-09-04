@@ -10,6 +10,362 @@
 		(rev "0")
 	)
 	(lib_symbols
+		(symbol "1nH_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "L"
+				(at 5.842 4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1nH"
+				(at 5.842 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "amp:LQG15WH0N7B02D"
+				(at 16.51 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243B-9101_PDF_INDUCTOR"
+				(at 16.51 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "10GHz 1A 1nH 70mΩ 8@100MHz 0402 Inductors (SMD) ROHS"
+				(at 10.16 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFP" "LQG15HH1N0B02D"
+				(at 16.51 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "MFN" "Murata Electronics"
+				(at 16.51 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "OctopartURL" "https://octopart.com/part/murata/LQG15HH1N0B02D"
+				(at 16.51 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "LCSCPart" "C3910364"
+				(at 16.51 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "ki_keywords" "10GHz 1A 1nH 70mΩ 8@100MHz 0402 Inductors (SMD) ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1nH_1_0_1"
+				(arc
+					(start 0.508 0)
+					(mid 1.016 0.5058)
+					(end 1.524 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.524 0)
+					(mid 2.032 0.5058)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 3.048 0.5058)
+					(end 3.556 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.556 0)
+					(mid 4.064 0.5058)
+					(end 4.572 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1nH_1_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 0.508)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0.508)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "amp:0.5pF"
 			(pin_numbers
 				(hide yes)
@@ -210,6 +566,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "amp:1.2nH"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(hide yes)
 			)
@@ -425,6 +784,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "amp:1.8nH"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(hide yes)
 			)
@@ -1038,6 +1400,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "amp:10nH"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(hide yes)
 			)
@@ -1605,6 +1970,531 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "amp:132365-10"
+			(body_styles demorgan)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -2.794 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "132365-10"
+				(at 2.032 -4.826 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "amp:CONN_132365-10_AMP"
+				(at 2.032 8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.amphenolrf.com/en-us/assets/file/4065786540/"
+				(at 0 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" "SMA Connector Receptacle, Male Pin 50 Ohms Board Edge, End Launch Solder Tab"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFP" "132365-10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFN" "Amphenol RF"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "OctopartURL" "https://octopart.com/part/amphenol-rf/132365-10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSCPart" "C3172997"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "132365-10"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CONN_132365-10_AMP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "132365-10_0_0"
+				(polyline
+					(pts
+						(xy -3.302 2.032) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 0.508) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -0.508) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -2.032) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 0.254) (xy 0 0.254)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -2.032) (xy -1.27 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 1.27)
+					(radius 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.254) (xy 1.016 0.254)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -2.286 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.27)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy -0.508 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy -0.762 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -2.032) (xy 0.254 -2.794)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 1.27 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -1.27 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -1.27 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -1.27 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "132365-10_1_2"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -2.54) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "amp:15pF"
 			(pin_numbers
 				(hide yes)
@@ -2004,6 +2894,9 @@
 			(embedded_fonts no)
 		)
 		(symbol "amp:1nH"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(hide yes)
 			)
@@ -2776,6 +3669,206 @@
 				)
 			)
 			(symbol "6.8pF_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "amp:62pF"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "62pF"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1030_CBR_SMD"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "62 pF ±1% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFP" "CBR06C620F5GAC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFN" "KEMET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "OctopartURL" "https://octopart.com/part/kemet/CBR06C620F5GAC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSCPart" "C2171209"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "62pF_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "62pF_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -4033,6 +5126,427 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "amp:SMA-J-P-H-ST-EM1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -3.81 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "SMA-J-P-H-ST-EM1"
+				(at -4.064 -4.318 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "amp:SAMTEC_SMA-J-P-H-ST-EM1"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMA Connector Jack, Female Socket 50 Ohms Board Edge, End Launch Solder"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MFP" "SMA-J-P-H-ST-EM1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MFN" "Samtec"
+				(at -5.588 6.096 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "OctopartURL" "https://octopart.com/part/samtec/SMA-J-P-H-ST-EM1"
+				(at -2.032 7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "LCSCPart" "C5199907"
+				(at 0 8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "SMA-J-P-H-ST-EM1_0_0"
+				(polyline
+					(pts
+						(xy -3.302 3.302) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 1.778) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 0.762) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 -0.762) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.524) (xy 0 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.762) (xy -1.27 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.524) (xy 1.016 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.286 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy -0.508 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.762) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -0.762) (xy 0.254 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3_1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3_2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4159,9 +5673,9 @@
 		)
 		(uuid "022b388c-2fa4-4992-af00-f47e0cbc8197")
 	)
-	(text "Connector to 3.7V battery\nadd info\n18650"
+	(text "Connector to 3.7V battery\nadd info\n18650\n\nDC/DC Reg w/ LDO for input to maintain constant VCC?"
 		(exclude_from_sim no)
-		(at 248.412 35.306 0)
+		(at 248.412 32.512 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4181,7 +5695,7 @@
 	)
 	(text "MAX Pin - 10dBm\n33 dBm @915 MHz\n3 gain stages\n"
 		(exclude_from_sim no)
-		(at 103.886 72.136 0)
+		(at 102.616 75.946 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4211,7 +5725,7 @@
 	)
 	(text "Male SMA Connector on Radio Side"
 		(exclude_from_sim no)
-		(at 203.454 124.968 0)
+		(at 210.566 112.268 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4219,17 +5733,6 @@
 			(justify left)
 		)
 		(uuid "390b5dd0-5d93-4b1e-8608-fd4dafb1f721")
-	)
-	(text "\nneed attenuator prior\n^^^dont need this, power is adjustable in meshtastic app\n^^^would need to verify max receive power(attn on recieve side) \n^^^would need to verify it actually affects power\n^^^default was set to 30dBm, which is higher than the module can output\n"
-		(exclude_from_sim no)
-		(at 59.944 86.868 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "44133a60-fb9a-414f-9dbe-09e3b5331c66")
 	)
 	(text "5dBm Max Input"
 		(exclude_from_sim no)
@@ -4294,9 +5797,9 @@
 		)
 		(uuid "8668dda6-b165-486f-8e46-cff87770de7b")
 	)
-	(text "Female SMA Connector on Antenna Side"
+	(text "Female w threads SMA Connector on Antenna Side"
 		(exclude_from_sim no)
-		(at 203.708 134.62 0)
+		(at 210.566 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4347,266 +5850,278 @@
 		(uuid "d3e4c6aa-bad0-4a89-97bd-f24dce798d92")
 	)
 	(junction
-		(at 161.29 140.97)
+		(at 163.83 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "106ecad4-9fb7-4b7e-8c17-13dd83301a56")
 	)
 	(junction
-		(at 73.66 69.85)
+		(at 72.39 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28e5ac56-7d5d-4091-bac9-d27c36901b78")
 	)
 	(junction
-		(at 120.65 135.89)
+		(at 123.19 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c05f1fc-5d85-4051-a6e5-20e069e1bb78")
 	)
 	(junction
-		(at 133.35 31.75)
+		(at 132.08 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fe9eec5-6a26-4722-8974-19984068ada5")
 	)
 	(junction
-		(at 165.1 57.15)
+		(at 163.83 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39668b18-d69a-426b-8f67-91f9a647a6a9")
 	)
 	(junction
-		(at 130.81 46.99)
+		(at 129.54 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39deff81-3ba7-46b8-96d1-d6922a12b680")
 	)
 	(junction
-		(at 160.02 57.15)
+		(at 158.75 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "408f7cb3-8d24-47de-8998-52d5bb02c370")
 	)
 	(junction
-		(at 54.61 31.75)
+		(at 53.34 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40a325e8-38b6-4a88-992a-164a1c92445a")
 	)
 	(junction
-		(at 175.26 46.99)
+		(at 173.99 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4155a46e-7b8a-48d8-92c3-cea64bbef948")
 	)
 	(junction
-		(at 130.81 44.45)
+		(at 129.54 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44480364-7897-4067-9b24-d2ba0484168b")
 	)
 	(junction
-		(at 154.94 46.99)
+		(at 153.67 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45b9341a-cb30-4f4c-9235-96917f1d066f")
 	)
 	(junction
-		(at 135.89 77.47)
+		(at 134.62 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "468557ff-6808-4eab-890f-bec69b43f1c4")
 	)
 	(junction
-		(at 81.28 69.85)
+		(at 80.01 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d2c1c36-8387-4a21-a71c-69ce633cc84c")
 	)
 	(junction
-		(at 154.94 57.15)
+		(at 153.67 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4fdba935-aecd-4fcf-984d-582812dd2671")
 	)
 	(junction
-		(at 135.89 33.02)
+		(at 77.47 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f5fdce5-a382-4be2-ba66-bdcfb276e3b9")
+	)
+	(junction
+		(at 134.62 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61f897da-94e3-42ad-9a84-3d03631b3747")
 	)
 	(junction
-		(at 140.97 69.85)
+		(at 139.7 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "674838b4-ec0d-49c5-a65e-67e9b41783df")
 	)
 	(junction
-		(at 41.91 69.85)
+		(at 80.01 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "67610f54-3f79-4484-b38d-5885a49336bd")
+	)
+	(junction
+		(at 40.64 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67c9c1a7-ab3b-4c33-a852-59fa20cdddd3")
 	)
 	(junction
-		(at 144.78 46.99)
+		(at 143.51 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67dc4425-32c4-489e-8748-858c1c1ebe1a")
 	)
 	(junction
-		(at 161.29 143.51)
+		(at 163.83 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7068f15e-a940-4c54-91d0-9bebbaa62f44")
 	)
 	(junction
-		(at 167.64 24.13)
+		(at 166.37 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "737ddd90-19b1-4506-b7a6-da4eb90fa294")
 	)
 	(junction
-		(at 66.04 34.29)
+		(at 64.77 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "740f79ab-4113-4f2f-8b66-f7d0f34fabee")
 	)
 	(junction
-		(at 130.81 49.53)
+		(at 129.54 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7513ffbb-677e-4662-aa99-a31a05bf6526")
 	)
 	(junction
-		(at 156.21 31.75)
+		(at 154.94 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82a87aa9-c2b4-4954-85af-62fb1f05bd51")
 	)
 	(junction
-		(at 144.78 24.13)
+		(at 143.51 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89c6ccf5-0075-4c79-82b7-93382504acc0")
 	)
 	(junction
-		(at 120.65 148.59)
+		(at 123.19 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e1e5e3b-b615-4fda-b00b-eb19eb59fd5e")
 	)
 	(junction
-		(at 161.29 148.59)
+		(at 163.83 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e66e8b0-dcb3-45b5-b086-ea242d5eb7d0")
 	)
 	(junction
-		(at 120.65 140.97)
+		(at 123.19 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "901e87ff-bc85-4a02-9362-16187441935e")
 	)
 	(junction
-		(at 60.96 53.34)
+		(at 59.69 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "908a6323-6907-4245-b44f-de413efb1395")
 	)
 	(junction
-		(at 161.29 138.43)
+		(at 163.83 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90c81d2e-7ba6-45f2-8af6-41375c981aa5")
 	)
 	(junction
-		(at 49.53 69.85)
+		(at 48.26 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95fce411-21bc-4974-9109-4525814a0699")
 	)
 	(junction
-		(at 120.65 146.05)
+		(at 123.19 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a06b1511-5016-4bd6-afb7-0141851d98c9")
 	)
 	(junction
-		(at 156.21 24.13)
+		(at 154.94 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1b06a72-7a59-4342-9d37-4537270a3a87")
 	)
 	(junction
-		(at 165.1 46.99)
+		(at 163.83 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a33474e9-6acb-4493-9072-4e26fa776207")
 	)
 	(junction
-		(at 57.15 69.85)
+		(at 55.88 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2cac3bb-7dca-496e-9d9a-f3de3d2cc3a7")
 	)
 	(junction
-		(at 140.97 156.21)
+		(at 143.51 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4585fb9-a4c3-4a87-812e-603a0285f59f")
 	)
 	(junction
-		(at 161.29 135.89)
+		(at 163.83 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bbc664b3-8306-4029-a632-f7b462879e47")
 	)
 	(junction
-		(at 130.81 69.85)
+		(at 129.54 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c03c136c-2293-4e6a-a5bd-3e0028446c22")
 	)
 	(junction
-		(at 66.04 46.99)
+		(at 64.77 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4a85788-6c0e-416a-9b57-255320571173")
 	)
 	(junction
-		(at 120.65 143.51)
+		(at 123.19 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5a32da5-33c2-4599-8082-d8258e91defe")
 	)
 	(junction
-		(at 73.66 58.42)
+		(at 72.39 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d68ad374-b9f6-4c49-af44-6db4533aa9e1")
 	)
 	(junction
-		(at 49.53 78.74)
+		(at 48.26 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e83d2215-cfb4-4f2e-a009-e6d95be70c47")
 	)
 	(junction
-		(at 161.29 146.05)
+		(at 163.83 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9066046-faee-4399-8897-a6245d27584c")
 	)
 	(junction
-		(at 120.65 138.43)
+		(at 123.19 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef59a2bf-8f0a-46d1-950f-dda30c3cec51")
 	)
 	(wire
 		(pts
-			(xy 175.26 46.99) (xy 179.07 46.99)
+			(xy 173.99 50.8) (xy 177.8 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4616,7 +6131,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 29.21) (xy 135.89 33.02)
+			(xy 134.62 33.02) (xy 134.62 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4626,7 +6141,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 30.48) (xy 144.78 31.75)
+			(xy 143.51 34.29) (xy 143.51 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4636,7 +6151,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 36.83) (xy 60.96 53.34)
+			(xy 59.69 40.64) (xy 59.69 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4646,7 +6161,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 54.61) (xy 144.78 57.15)
+			(xy 143.51 58.42) (xy 143.51 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4656,7 +6171,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 69.85) (xy 57.15 69.85)
+			(xy 48.26 73.66) (xy 55.88 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4666,7 +6181,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 40.64) (xy 54.61 41.91)
+			(xy 80.01 140.97) (xy 80.01 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c43e060-df3d-4dcd-ac2b-2681b55cc127")
+	)
+	(wire
+		(pts
+			(xy 53.34 44.45) (xy 53.34 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4686,7 +6211,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 33.02) (xy 135.89 36.83)
+			(xy 134.62 36.83) (xy 134.62 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4696,7 +6221,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 58.42) (xy 73.66 69.85)
+			(xy 72.39 62.23) (xy 72.39 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4706,7 +6231,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 29.21) (xy 74.93 29.21)
+			(xy 64.77 33.02) (xy 73.66 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4716,7 +6241,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 69.85) (xy 41.91 69.85)
+			(xy 33.02 73.66) (xy 40.64 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4726,7 +6251,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 24.13) (xy 133.35 31.75)
+			(xy 132.08 27.94) (xy 132.08 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4736,7 +6261,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 31.75) (xy 57.15 31.75)
+			(xy 53.34 35.56) (xy 55.88 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4746,7 +6271,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 135.89) (xy 120.65 133.35)
+			(xy 123.19 134.62) (xy 123.19 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4756,7 +6281,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 58.42) (xy 81.28 58.42)
+			(xy 78.74 62.23) (xy 80.01 62.23)
 		)
 		(stroke
 			(width 0)
@@ -4776,7 +6301,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 31.75) (xy 54.61 35.56)
+			(xy 86.36 132.08) (xy 77.47 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9cf40b-d660-4732-ab7f-56355100b262")
+	)
+	(wire
+		(pts
+			(xy 53.34 35.56) (xy 53.34 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4786,7 +6321,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 77.47) (xy 140.97 76.2)
+			(xy 139.7 81.28) (xy 139.7 80.01)
 		)
 		(stroke
 			(width 0)
@@ -4796,7 +6331,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 148.59) (xy 161.29 156.21)
+			(xy 163.83 147.32) (xy 163.83 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4806,7 +6341,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 71.12) (xy 140.97 69.85)
+			(xy 24.13 132.08) (xy 26.67 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "286e1739-ea72-45ca-af79-2357c7857a0c")
+	)
+	(wire
+		(pts
+			(xy 139.7 74.93) (xy 139.7 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4816,7 +6361,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 30.48) (xy 156.21 31.75)
+			(xy 154.94 34.29) (xy 154.94 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4826,7 +6371,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 71.12) (xy 130.81 69.85)
+			(xy 129.54 74.93) (xy 129.54 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4836,7 +6381,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 31.75) (xy 39.37 31.75)
+			(xy 36.83 35.56) (xy 38.1 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4856,7 +6401,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 133.35) (xy 161.29 135.89)
+			(xy 163.83 132.08) (xy 163.83 134.62)
 		)
 		(stroke
 			(width 0)
@@ -4876,7 +6421,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 57.15) (xy 175.26 57.15)
+			(xy 163.83 60.96) (xy 173.99 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4886,7 +6431,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 46.99) (xy 154.94 46.99)
+			(xy 143.51 50.8) (xy 153.67 50.8)
 		)
 		(stroke
 			(width 0)
@@ -4896,7 +6441,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 69.85) (xy 153.67 69.85)
+			(xy 149.86 73.66) (xy 152.4 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4906,7 +6451,17 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 78.74) (xy 135.89 77.47)
+			(xy 77.47 132.08) (xy 74.93 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cca2f6f-351f-4563-94eb-5601252e74fb")
+	)
+	(wire
+		(pts
+			(xy 134.62 82.55) (xy 134.62 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4916,7 +6471,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 69.85) (xy 140.97 69.85)
+			(xy 74.93 129.54) (xy 82.55 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "446e4657-73b7-40ce-90fe-19c68799d7d8")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 139.7 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4926,7 +6491,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 69.85) (xy 133.35 69.85)
+			(xy 129.54 73.66) (xy 132.08 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4946,7 +6511,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 53.34) (xy 52.07 53.34)
+			(xy 44.45 57.15) (xy 50.8 57.15)
 		)
 		(stroke
 			(width 0)
@@ -4956,7 +6521,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 54.61) (xy 165.1 57.15)
+			(xy 163.83 58.42) (xy 163.83 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4966,7 +6531,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 29.21) (xy 66.04 34.29)
+			(xy 64.77 33.02) (xy 64.77 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4976,7 +6541,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 24.13) (xy 156.21 25.4)
+			(xy 154.94 27.94) (xy 154.94 29.21)
 		)
 		(stroke
 			(width 0)
@@ -4986,7 +6551,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 41.91) (xy 130.81 69.85)
+			(xy 129.54 45.72) (xy 129.54 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5006,7 +6571,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 69.85) (xy 74.93 69.85)
+			(xy 72.39 73.66) (xy 73.66 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5024,6 +6589,16 @@
 		)
 		(uuid "5fc300c1-6bf6-464a-a498-8db15748f460")
 	)
+	(wire
+		(pts
+			(xy 34.29 129.54) (xy 34.29 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6073bfae-7a86-4d97-9ada-50f1ee2a2739")
+	)
 	(polyline
 		(pts
 			(xy 12.7 12.7) (xy 240.03 12.7)
@@ -5036,7 +6611,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 77.47) (xy 57.15 78.74)
+			(xy 55.88 81.28) (xy 55.88 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5046,7 +6621,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 36.83) (xy 74.93 36.83)
+			(xy 59.69 40.64) (xy 73.66 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5056,7 +6631,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 57.15) (xy 154.94 57.15)
+			(xy 143.51 60.96) (xy 153.67 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5066,7 +6641,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 57.15) (xy 165.1 57.15)
+			(xy 158.75 60.96) (xy 163.83 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5086,7 +6661,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 46.99) (xy 144.78 46.99)
+			(xy 139.7 50.8) (xy 143.51 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5096,7 +6671,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 53.34) (xy 60.96 53.34)
+			(xy 55.88 57.15) (xy 59.69 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5116,7 +6691,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 76.2) (xy 130.81 77.47)
+			(xy 129.54 80.01) (xy 129.54 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5126,7 +6701,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 69.85) (xy 49.53 69.85)
+			(xy 40.64 73.66) (xy 48.26 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5136,7 +6711,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 44.45) (xy 73.66 44.45)
+			(xy 73.66 48.26) (xy 72.39 48.26)
 		)
 		(stroke
 			(width 0)
@@ -5156,7 +6731,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 78.74) (xy 57.15 78.74)
+			(xy 48.26 82.55) (xy 55.88 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5166,7 +6741,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 138.43) (xy 120.65 135.89)
+			(xy 123.19 137.16) (xy 123.19 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5176,7 +6751,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 143.51) (xy 161.29 146.05)
+			(xy 163.83 142.24) (xy 163.83 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5186,7 +6761,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 58.42) (xy 81.28 69.85)
+			(xy 80.01 62.23) (xy 80.01 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5196,7 +6771,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 140.97) (xy 161.29 143.51)
+			(xy 163.83 139.7) (xy 163.83 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5206,7 +6781,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 31.75) (xy 133.35 34.29)
+			(xy 82.55 139.7) (xy 82.55 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8064ba24-1470-48b3-aace-a99dd86d12f7")
+	)
+	(wire
+		(pts
+			(xy 132.08 35.56) (xy 132.08 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5216,7 +6801,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 135.89) (xy 161.29 138.43)
+			(xy 163.83 134.62) (xy 163.83 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5226,7 +6811,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 31.75) (xy 156.21 31.75)
+			(xy 143.51 35.56) (xy 154.94 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5236,7 +6821,17 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 77.47) (xy 135.89 77.47)
+			(xy 34.29 129.54) (xy 35.56 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e70c59-750b-404a-8890-45ece3cc996b")
+	)
+	(wire
+		(pts
+			(xy 129.54 81.28) (xy 134.62 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5246,7 +6841,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 48.26) (xy 175.26 46.99)
+			(xy 173.99 52.07) (xy 173.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5256,7 +6851,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 46.99) (xy 165.1 49.53)
+			(xy 163.83 50.8) (xy 163.83 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5276,7 +6871,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 69.85) (xy 72.39 69.85)
+			(xy 72.39 73.66) (xy 71.12 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5286,7 +6881,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 31.75) (xy 54.61 31.75)
+			(xy 50.8 35.56) (xy 53.34 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5296,7 +6891,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 33.02) (xy 135.89 33.02)
+			(xy 140.97 36.83) (xy 134.62 36.83)
 		)
 		(stroke
 			(width 0)
@@ -5306,7 +6901,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 69.85) (xy 80.01 69.85)
+			(xy 80.01 73.66) (xy 78.74 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5316,7 +6911,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 140.97) (xy 120.65 138.43)
+			(xy 123.19 139.7) (xy 123.19 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5326,7 +6921,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 58.42) (xy 160.02 57.15)
+			(xy 158.75 62.23) (xy 158.75 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5336,7 +6931,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 34.29) (xy 130.81 34.29)
+			(xy 132.08 38.1) (xy 129.54 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5346,7 +6941,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 46.99) (xy 165.1 46.99)
+			(xy 153.67 50.8) (xy 163.83 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5356,7 +6951,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 77.47) (xy 49.53 78.74)
+			(xy 48.26 81.28) (xy 48.26 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5366,7 +6961,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 156.21) (xy 140.97 156.21)
+			(xy 163.83 154.94) (xy 143.51 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5376,7 +6971,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 31.75) (xy 133.35 31.75)
+			(xy 129.54 35.56) (xy 132.08 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5386,7 +6981,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 24.13) (xy 179.07 24.13)
+			(xy 166.37 27.94) (xy 177.8 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5396,7 +6991,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 54.61) (xy 45.72 53.34)
+			(xy 44.45 58.42) (xy 44.45 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5406,7 +7001,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 29.21) (xy 130.81 29.21)
+			(xy 134.62 33.02) (xy 129.54 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5416,7 +7011,17 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 24.13) (xy 156.21 24.13)
+			(xy 31.75 132.08) (xy 35.56 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d91071-2ed8-4a6c-b911-970d5c969225")
+	)
+	(wire
+		(pts
+			(xy 143.51 27.94) (xy 154.94 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5426,7 +7031,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 44.45) (xy 73.66 58.42)
+			(xy 77.47 134.62) (xy 77.47 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a431b475-37aa-4ce1-aac1-86e870ad18ae")
+	)
+	(wire
+		(pts
+			(xy 72.39 48.26) (xy 72.39 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5436,7 +7051,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 138.43) (xy 161.29 140.97)
+			(xy 163.83 137.16) (xy 163.83 139.7)
 		)
 		(stroke
 			(width 0)
@@ -5456,7 +7071,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 148.59) (xy 120.65 156.21)
+			(xy 123.19 147.32) (xy 123.19 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5466,7 +7081,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 146.05) (xy 161.29 148.59)
+			(xy 163.83 144.78) (xy 163.83 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5476,7 +7091,17 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 54.61) (xy 154.94 57.15)
+			(xy 77.47 140.97) (xy 80.01 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b38bfb22-6a46-4b75-a344-1e7375e5d604")
+	)
+	(wire
+		(pts
+			(xy 153.67 58.42) (xy 153.67 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5486,7 +7111,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 36.83) (xy 135.89 36.83)
+			(xy 129.54 40.64) (xy 134.62 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5496,7 +7121,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 77.47) (xy 140.97 77.47)
+			(xy 134.62 81.28) (xy 139.7 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5506,7 +7131,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 53.34) (xy 60.96 60.96)
+			(xy 59.69 57.15) (xy 59.69 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5516,7 +7141,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 46.99) (xy 154.94 49.53)
+			(xy 153.67 50.8) (xy 153.67 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5526,7 +7151,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 33.02) (xy 142.24 34.29)
+			(xy 140.97 36.83) (xy 140.97 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5536,7 +7161,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 69.85) (xy 60.96 69.85)
+			(xy 55.88 73.66) (xy 59.69 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5546,7 +7171,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 34.29) (xy 74.93 34.29)
+			(xy 64.77 38.1) (xy 73.66 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5556,7 +7181,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 46.99) (xy 175.26 46.99)
+			(xy 163.83 50.8) (xy 173.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5566,7 +7191,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 146.05) (xy 120.65 148.59)
+			(xy 123.19 144.78) (xy 123.19 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5576,7 +7201,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 72.39) (xy 81.28 69.85)
+			(xy 80.01 76.2) (xy 80.01 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5586,7 +7211,17 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 24.13) (xy 167.64 24.13)
+			(xy 76.2 127) (xy 74.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1fb8f1-9a98-4de3-b1e2-b0db018c5eee")
+	)
+	(wire
+		(pts
+			(xy 154.94 27.94) (xy 166.37 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5596,7 +7231,17 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 69.85) (xy 49.53 72.39)
+			(xy 34.29 127) (xy 35.56 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf725d52-b033-4b35-9466-4cc8432ad870")
+	)
+	(wire
+		(pts
+			(xy 48.26 73.66) (xy 48.26 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5606,7 +7251,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 46.99) (xy 135.89 46.99)
+			(xy 129.54 50.8) (xy 134.62 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5616,7 +7261,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 71.12) (xy 41.91 69.85)
+			(xy 40.64 74.93) (xy 40.64 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5626,7 +7271,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 57.15) (xy 160.02 57.15)
+			(xy 153.67 60.96) (xy 158.75 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5636,7 +7281,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 24.13) (xy 144.78 25.4)
+			(xy 143.51 27.94) (xy 143.51 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5646,7 +7291,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 46.99) (xy 144.78 49.53)
+			(xy 143.51 50.8) (xy 143.51 53.34)
 		)
 		(stroke
 			(width 0)
@@ -5656,7 +7301,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 58.42) (xy 73.66 58.42)
+			(xy 73.66 62.23) (xy 72.39 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5666,7 +7311,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 46.99) (xy 74.93 46.99)
+			(xy 64.77 50.8) (xy 73.66 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5676,7 +7321,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 81.28) (xy 49.53 78.74)
+			(xy 48.26 85.09) (xy 48.26 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5686,7 +7331,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 69.85) (xy 57.15 72.39)
+			(xy 55.88 73.66) (xy 55.88 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5706,7 +7351,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 78.74) (xy 49.53 78.74)
+			(xy 40.64 82.55) (xy 48.26 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5716,7 +7361,17 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 49.53) (xy 66.04 46.99)
+			(xy 82.55 129.54) (xy 82.55 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b95e45-f8a0-4220-8526-e15ae5dee2f6")
+	)
+	(wire
+		(pts
+			(xy 64.77 53.34) (xy 64.77 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5726,7 +7381,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 31.75) (xy 156.21 34.29)
+			(xy 154.94 35.56) (xy 154.94 38.1)
 		)
 		(stroke
 			(width 0)
@@ -5736,7 +7391,27 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 24.13) (xy 144.78 24.13)
+			(xy 77.47 140.97) (xy 77.47 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5d5b686-d10e-4b32-bbc7-5356864d5093")
+	)
+	(wire
+		(pts
+			(xy 80.01 140.97) (xy 82.55 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63600fc-d704-4d23-9547-65c449e89c3c")
+	)
+	(wire
+		(pts
+			(xy 139.7 27.94) (xy 143.51 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5746,7 +7421,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 31.75) (xy 74.93 31.75)
+			(xy 60.96 35.56) (xy 73.66 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5756,7 +7431,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 140.97) (xy 120.65 143.51)
+			(xy 123.19 139.7) (xy 123.19 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5766,7 +7441,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 31.75) (xy 46.99 31.75)
+			(xy 43.18 35.56) (xy 45.72 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5786,7 +7461,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 34.29) (xy 66.04 46.99)
+			(xy 64.77 38.1) (xy 64.77 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5806,7 +7481,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 57.15) (xy 175.26 55.88)
+			(xy 173.99 60.96) (xy 173.99 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5816,7 +7491,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 69.85) (xy 146.05 69.85)
+			(xy 139.7 73.66) (xy 144.78 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5826,7 +7501,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 156.21) (xy 120.65 156.21)
+			(xy 143.51 154.94) (xy 123.19 154.94)
 		)
 		(stroke
 			(width 0)
@@ -5836,7 +7511,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 69.85) (xy 60.96 66.04)
+			(xy 59.69 73.66) (xy 59.69 69.85)
 		)
 		(stroke
 			(width 0)
@@ -5846,7 +7521,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 24.13) (xy 135.89 24.13)
+			(xy 132.08 27.94) (xy 134.62 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5866,7 +7541,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 31.75) (xy 167.64 31.75)
+			(xy 154.94 35.56) (xy 166.37 35.56)
 		)
 		(stroke
 			(width 0)
@@ -5876,7 +7551,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 143.51) (xy 120.65 146.05)
+			(xy 123.19 142.24) (xy 123.19 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7274,9 +8949,57 @@
 			"AAAAiCiCdgAAAAAAIoqgHQAAAACAiCJoBwAAAAAgov4/+Nb5Ic34tIIAAAAASUVORK5CYII="
 		)
 	)
-	(global_label "Vcc1"
+	(global_label "VCC"
 		(shape input)
-		(at 34.29 69.85 180)
+		(at 86.36 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fcc028a-b0c2-4354-8b1c-436d2c7c861f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.9738 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RFin"
+		(shape output)
+		(at 196.85 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fce4314-88fe-418e-8b37-168dd463ad59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.9476 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 33.02 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7286,7 +9009,7 @@
 		)
 		(uuid "1323250d-9595-443c-9767-485c5fbb6712")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.8295 69.85 0)
+			(at 26.4062 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7298,9 +9021,9 @@
 			)
 		)
 	)
-	(global_label "Vref"
+	(global_label "VCC"
 		(shape input)
-		(at 72.39 69.85 180)
+		(at 71.12 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7310,7 +9033,7 @@
 		)
 		(uuid "20e76bdb-620f-4ad8-a76d-07a8f3ac2c9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.7157 69.85 0)
+			(at 64.5062 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7346,18 +9069,19 @@
 			)
 		)
 	)
-	(global_label "RFin"
+	(global_label "VCC"
 		(shape input)
-		(at 38.1 31.75 180)
+		(at 34.29 127 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "4698ec07-bb91-4365-b553-b51ff35aa031")
+		(uuid "3104c2ad-78fd-4670-b89b-911f1ecc88f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.0024 31.75 0)
+			(at 27.6762 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7366,6 +9090,77 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "RFin"
+		(shape input)
+		(at 163.83 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c6a8af0-0624-4b28-9f79-9579ad5948a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.9276 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "RFin"
+		(shape input)
+		(at 36.83 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4698ec07-bb91-4365-b553-b51ff35aa031")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 29.7324 35.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LNAout"
+		(shape output)
+		(at 196.85 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d188f23-56bb-4371-803c-91a74f368da6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.3061 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -7393,9 +9188,9 @@
 			)
 		)
 	)
-	(global_label "RFout"
+	(global_label "LIMout"
 		(shape input)
-		(at 193.04 69.85 0)
+		(at 81.28 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7403,9 +9198,9 @@
 			)
 			(justify left)
 		)
-		(uuid "940334f1-9c32-4126-ae96-98a7a130d4e3")
+		(uuid "743b7852-ebc8-40ef-a214-490573f09dd4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.4075 69.85 0)
+			(at 90.3732 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7417,9 +9212,33 @@
 			)
 		)
 	)
-	(global_label "Vapc2"
-		(shape input)
-		(at 74.93 41.91 180)
+	(global_label "ANTout"
+		(shape output)
+		(at 248.92 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7aeae851-687c-4e5d-8394-7de4caa3190b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 258.3156 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LIMout"
+		(shape output)
+		(at 123.19 121.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7427,9 +9246,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a8bda0eb-e3c6-4953-ae24-861ec4fe002b")
+		(uuid "9ebc6d61-cec5-44bd-905e-49f6abe4720c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.2601 41.91 0)
+			(at 114.0968 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7441,9 +9260,33 @@
 			)
 		)
 	)
-	(global_label "Vcc2"
+	(global_label "Vapc2"
 		(shape input)
-		(at 179.07 24.13 0)
+		(at 73.66 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a8bda0eb-e3c6-4953-ae24-861ec4fe002b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.9901 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 177.8 27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7453,7 +9296,55 @@
 		)
 		(uuid "b1fb6c59-0efe-491d-9d27-b8a1c805f92e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.5305 24.13 0)
+			(at 184.4138 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LNAout"
+		(shape output)
+		(at 24.13 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5b954f1-fd2b-4b33-986b-5ca9da36258f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 14.6739 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "to{slash}fromLoRa"
+		(shape output)
+		(at 212.09 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dc2b66f8-f1b3-44c6-8e48-e6142525172d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.2307 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7467,7 +9358,7 @@
 	)
 	(global_label "Vapc1"
 		(shape input)
-		(at 74.93 39.37 180)
+		(at 73.66 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7477,7 +9368,7 @@
 		)
 		(uuid "dd35e5e5-28e0-4244-9b12-77be8dcf5373")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.2601 39.37 0)
+			(at 64.9901 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7491,7 +9382,7 @@
 	)
 	(global_label "RFout"
 		(shape output)
-		(at 153.67 69.85 0)
+		(at 152.4 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7501,7 +9392,7 @@
 		)
 		(uuid "df04000f-df2c-46bd-8b71-72ca1c6d31fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.0375 69.85 0)
+			(at 160.7675 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7513,9 +9404,9 @@
 			)
 		)
 	)
-	(global_label "Vcc3"
+	(global_label "VCC"
 		(shape input)
-		(at 179.07 46.99 0)
+		(at 177.8 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7525,7 +9416,31 @@
 		)
 		(uuid "e687d46f-0c32-49ed-8f11-89114cd8ef54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.5305 46.99 0)
+			(at 184.4138 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "ANTout"
+		(shape output)
+		(at 215.9 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fcd25ed7-dca7-49f2-8cee-9d6e835f8f72")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.2956 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7539,7 +9454,7 @@
 	)
 	(symbol
 		(lib_id "amp:1nF")
-		(at 154.94 52.07 0)
+		(at 153.67 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7549,7 +9464,7 @@
 		(dnp no)
 		(uuid "0938715c-18b2-4f8b-a053-a30cfbface31")
 		(property "Reference" "C10"
-			(at 156.972 50.8 0)
+			(at 155.702 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7560,7 +9475,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 156.972 53.34 0)
+			(at 155.702 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7571,7 +9486,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 155.9052 55.88 0)
+			(at 154.6352 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7582,7 +9497,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 154.94 52.07 0)
+			(at 153.67 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7593,7 +9508,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 154.94 52.07 0)
+			(at 153.67 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7604,7 +9519,7 @@
 			)
 		)
 		(property "MFP" "GRM155R71H102KA01D"
-			(at 154.94 52.07 0)
+			(at 153.67 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7615,7 +9530,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 154.94 52.07 0)
+			(at 153.67 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7626,7 +9541,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GRM155R71H102KA01D"
-			(at 154.94 52.07 0)
+			(at 153.67 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7637,7 +9552,7 @@
 			)
 		)
 		(property "LCSCPart" "C77018"
-			(at 154.94 52.07 0)
+			(at 153.67 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7663,8 +9578,146 @@
 		)
 	)
 	(symbol
+		(lib_id "amp:SMA-J-P-H-ST-EM1")
+		(at 246.38 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f7e299e-89f6-4026-9484-e7e651c29c88")
+		(property "Reference" "J2"
+			(at 245.999 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMA-J-P-H-ST-EM1"
+			(at 245.999 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "amp:SAMTEC_SMA-J-P-H-ST-EM1"
+			(at 246.38 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sma-j-p-x-st-em1-mkt.pdf"
+			(at 246.38 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMA Connector Jack, Female Socket 50 Ohms Board Edge, End Launch Solder"
+			(at 246.38 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" "SMA-J-P-H-ST-EM1"
+			(at 246.38 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MFN" "Samtec"
+			(at 240.792 85.344 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "OctopartURL" "https://octopart.com/part/samtec/SMA-J-P-H-ST-EM1"
+			(at 244.348 84.074 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "LCSCPart" "C5199907"
+			(at 246.38 83.312 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2_1"
+			(uuid "3661bae1-4738-41fc-8790-78845241ffe5")
+		)
+		(pin "3_1"
+			(uuid "416ab5ef-bcc1-48ab-812a-ffce825e2a7a")
+		)
+		(pin "3_2"
+			(uuid "42e0d306-98ca-46a4-b08e-1f045d2b9e11")
+		)
+		(pin "2_2"
+			(uuid "20ff41e6-e2d2-4da7-a7ff-fc607a63dfd2")
+		)
+		(pin "1"
+			(uuid "a3cb7c1b-9edb-4f13-a7af-a810f0b84243")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/25c93556-9645-451f-b1cc-68bc7304ee85"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "amp:27pF")
-		(at 59.69 31.75 90)
+		(at 58.42 35.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7674,7 +9727,7 @@
 		(dnp no)
 		(uuid "15d56b55-460f-4274-8a97-04669544141c")
 		(property "Reference" "C19"
-			(at 59.69 26.416 90)
+			(at 58.42 30.226 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7684,7 +9737,7 @@
 			)
 		)
 		(property "Value" "27pF"
-			(at 59.69 28.448 90)
+			(at 58.42 32.258 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7694,7 +9747,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 63.5 30.7848 0)
+			(at 62.23 34.5948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7705,7 +9758,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H270FB01-01A-EN_PDF_CERAMICCAPACITORSMD"
-			(at 59.69 31.75 0)
+			(at 58.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7716,7 +9769,7 @@
 			)
 		)
 		(property "Description" "27pF 50V C0G ±1% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 59.69 31.75 0)
+			(at 58.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7727,7 +9780,7 @@
 			)
 		)
 		(property "MFP" "GJM1555C1H270FB01D"
-			(at 59.69 31.75 0)
+			(at 58.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7738,7 +9791,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 59.69 31.75 0)
+			(at 58.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7749,7 +9802,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GJM1555C1H270FB01D"
-			(at 59.69 31.75 0)
+			(at 58.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7760,7 +9813,7 @@
 			)
 		)
 		(property "LCSCPart" "C88883"
-			(at 59.69 31.75 0)
+			(at 58.42 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7787,7 +9840,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 34.29 0)
+		(at 154.94 38.1 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -7798,7 +9851,7 @@
 		(dnp no)
 		(uuid "1bf77cd0-4802-4808-99de-dfc871cd63ec")
 		(property "Reference" "#PWR02"
-			(at 156.21 40.64 0)
+			(at 154.94 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7809,7 +9862,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 38.862 90)
+			(at 154.94 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7819,7 +9872,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 34.29 0)
+			(at 154.94 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7830,7 +9883,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 34.29 0)
+			(at 154.94 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7841,7 +9894,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 34.29 0)
+			(at 154.94 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7865,7 +9918,7 @@
 	)
 	(symbol
 		(lib_id "amp:SKY65111-348LF")
-		(at 74.93 29.21 0)
+		(at 73.66 33.02 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7876,7 +9929,7 @@
 		(fields_autoplaced yes)
 		(uuid "272a4a78-40ce-49a3-bf40-abf7cfadc182")
 		(property "Reference" "U1"
-			(at 102.87 19.05 0)
+			(at 101.6 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7886,7 +9939,7 @@
 			)
 		)
 		(property "Value" "SKY65111-348LF"
-			(at 102.87 21.59 0)
+			(at 101.6 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7896,7 +9949,7 @@
 			)
 		)
 		(property "Footprint" "QFN_SKY65111_SKY"
-			(at 69.342 17.272 0)
+			(at 68.072 21.082 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7908,7 +9961,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.skyworksinc.com/-/media/F2CE5F793E6D4A90AA950A247A9A6004.pdf"
-			(at 69.85 14.732 0)
+			(at 68.58 18.542 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7920,7 +9973,7 @@
 			)
 		)
 		(property "Description" "RF Amplifier IC ISM 600MHz ~ 1.1GHz 16-QFN (3x3)"
-			(at 69.85 14.732 0)
+			(at 68.58 18.542 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7931,7 +9984,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/skyworks-solutions/SKY65111-348LF"
-			(at 69.85 14.732 0)
+			(at 68.58 18.542 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7942,7 +9995,7 @@
 			)
 		)
 		(property "LCSCPart" "C2654167"
-			(at 69.342 17.272 0)
+			(at 68.072 21.082 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8014,8 +10067,7 @@
 	)
 	(symbol
 		(lib_id "amp:10nH")
-		(at 135.89 46.99 0)
-		(mirror x)
+		(at 134.62 50.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8025,7 +10077,7 @@
 		(dnp no)
 		(uuid "2f1ffe31-aa83-4a2d-8848-1785e2795e67")
 		(property "Reference" "L5"
-			(at 138.43 41.91 0)
+			(at 138.43 47.498 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8035,7 +10087,7 @@
 			)
 		)
 		(property "Value" "10nH"
-			(at 138.43 43.688 0)
+			(at 137.16 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8045,7 +10097,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 152.4 -49.2 0)
+			(at 151.13 146.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8057,7 +10109,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.coilcraft.com/getmedia/f3d98f97-cbe2-41fa-b3a9-518f674e881e/0603dc.pdf"
-			(at 152.4 -149.2 0)
+			(at 151.13 246.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8069,7 +10121,7 @@
 			)
 		)
 		(property "Description" "10nH 2.26A 4.1GHz 60mΩ 92@900MHz Wire-wound chip inductor ±2% 0603 Inductors (SMD) ROHS"
-			(at 146.05 44.704 0)
+			(at 144.78 53.086 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8080,7 +10132,7 @@
 			)
 		)
 		(property "MFP" "0603DC-10NXGRW"
-			(at 152.4 -449.2 0)
+			(at 151.13 546.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8092,7 +10144,7 @@
 			)
 		)
 		(property "MFN" "Coilcraft"
-			(at 152.4 -549.2 0)
+			(at 151.13 646.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8104,7 +10156,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/coilcraft/0603DC-10NXGRW"
-			(at 152.4 -649.2 0)
+			(at 151.13 746.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8116,7 +10168,7 @@
 			)
 		)
 		(property "LCSCPart" "C3220902"
-			(at 152.4 -749.2 0)
+			(at 151.13 846.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8144,7 +10196,7 @@
 	)
 	(symbol
 		(lib_id "amp:100pF")
-		(at 77.47 69.85 90)
+		(at 76.2 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8154,7 +10206,7 @@
 		(dnp no)
 		(uuid "31c40f7d-68c8-4a0e-a12f-3d55758a50b2")
 		(property "Reference" "C17"
-			(at 77.47 63.754 90)
+			(at 76.2 67.564 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8164,7 +10216,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 77.47 66.294 90)
+			(at 76.2 70.104 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8174,7 +10226,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 81.28 68.8848 0)
+			(at 80.01 72.6948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8185,7 +10237,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 77.47 69.85 0)
+			(at 76.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8196,7 +10248,7 @@
 			)
 		)
 		(property "Description" "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 77.47 69.85 0)
+			(at 76.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8207,7 +10259,7 @@
 			)
 		)
 		(property "MFP" "GRM1555C1H101JA01J"
-			(at 77.47 69.85 0)
+			(at 76.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8218,7 +10270,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 77.47 69.85 0)
+			(at 76.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8229,7 +10281,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GRM1555C1H101JA01J"
-			(at 77.47 69.85 0)
+			(at 76.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8240,7 +10292,7 @@
 			)
 		)
 		(property "LCSCPart" "C3892243"
-			(at 77.47 69.85 0)
+			(at 76.2 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8267,8 +10319,7 @@
 	)
 	(symbol
 		(lib_id "amp:1.8nH")
-		(at 133.35 69.85 0)
-		(mirror x)
+		(at 132.08 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8278,7 +10329,7 @@
 		(dnp no)
 		(uuid "32776647-6447-4601-a95e-30d3e847e6bf")
 		(property "Reference" "L3"
-			(at 135.89 64.516 0)
+			(at 136.144 70.104 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8288,7 +10339,7 @@
 			)
 		)
 		(property "Value" "1.8nH"
-			(at 135.89 66.548 0)
+			(at 134.62 71.882 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8298,7 +10349,7 @@
 			)
 		)
 		(property "Footprint" "amp:LQG15WH0N7B02D"
-			(at 149.86 -26.34 0)
+			(at 148.59 169.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8310,7 +10361,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243B-9117_PDF_INDUCTOR"
-			(at 149.86 -126.34 0)
+			(at 148.59 269.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8322,7 +10373,7 @@
 			)
 		)
 		(property "Description" "1.8nH 1A 23@250MHz 40mΩ 9GHz 0402 Inductors (SMD) ROHS"
-			(at 143.51 67.564 0)
+			(at 142.24 75.946 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8333,7 +10384,7 @@
 			)
 		)
 		(property "MFP" "LQG15WZ1N8B02D"
-			(at 149.86 -426.34 0)
+			(at 148.59 569.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8345,7 +10396,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 149.86 -526.34 0)
+			(at 148.59 669.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8357,7 +10408,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/LQG15WZ1N8B02D"
-			(at 149.86 -626.34 0)
+			(at 148.59 769.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8369,7 +10420,7 @@
 			)
 		)
 		(property "LCSCPart" "C3911287"
-			(at 149.86 -726.34 0)
+			(at 148.59 869.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8397,8 +10448,7 @@
 	)
 	(symbol
 		(lib_id "amp:1nH")
-		(at 135.89 24.13 0)
-		(mirror x)
+		(at 134.62 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8408,7 +10458,7 @@
 		(dnp no)
 		(uuid "39b238ea-b9dd-4412-9663-5e27d2eaed47")
 		(property "Reference" "L4"
-			(at 138.43 19.558 0)
+			(at 138.176 24.384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8418,7 +10468,7 @@
 			)
 		)
 		(property "Value" "1nH"
-			(at 138.43 21.336 0)
+			(at 137.414 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8428,7 +10478,7 @@
 			)
 		)
 		(property "Footprint" "amp:LQG15WH0N7B02D"
-			(at 152.4 -72.06 0)
+			(at 151.13 124.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8440,7 +10490,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243B-9101_PDF_INDUCTOR"
-			(at 152.4 -172.06 0)
+			(at 151.13 224.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8452,7 +10502,7 @@
 			)
 		)
 		(property "Description" "10GHz 1A 1nH 70mΩ 8@100MHz 0402 Inductors (SMD) ROHS"
-			(at 146.05 21.844 0)
+			(at 144.78 30.226 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8463,7 +10513,7 @@
 			)
 		)
 		(property "MFP" "LQG15HH1N0B02D"
-			(at 152.4 -472.06 0)
+			(at 151.13 524.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8475,7 +10525,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 152.4 -572.06 0)
+			(at 151.13 624.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8487,7 +10537,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/LQG15HH1N0B02D"
-			(at 152.4 -672.06 0)
+			(at 151.13 724.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8499,7 +10549,7 @@
 			)
 		)
 		(property "LCSCPart" "C3910364"
-			(at 152.4 -772.06 0)
+			(at 151.13 824.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8527,7 +10577,7 @@
 	)
 	(symbol
 		(lib_id "amp:100pF")
-		(at 57.15 74.93 0)
+		(at 55.88 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8537,7 +10587,7 @@
 		(dnp no)
 		(uuid "3dfa360c-5d69-4fc8-a9f5-aea8bec641dd")
 		(property "Reference" "C4"
-			(at 59.436 73.66 0)
+			(at 58.166 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8548,7 +10598,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 59.436 76.2 0)
+			(at 58.166 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8559,7 +10609,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 58.1152 78.74 0)
+			(at 56.8452 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8570,7 +10620,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 57.15 74.93 0)
+			(at 55.88 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8581,7 +10631,7 @@
 			)
 		)
 		(property "Description" "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 57.15 74.93 0)
+			(at 55.88 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8592,7 +10642,7 @@
 			)
 		)
 		(property "MFP" "GRM1555C1H101JA01J"
-			(at 57.15 74.93 0)
+			(at 55.88 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8603,7 +10653,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 57.15 74.93 0)
+			(at 55.88 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8614,7 +10664,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GRM1555C1H101JA01J"
-			(at 57.15 74.93 0)
+			(at 55.88 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8625,7 +10675,7 @@
 			)
 		)
 		(property "LCSCPart" "C3892243"
-			(at 57.15 74.93 0)
+			(at 55.88 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8652,7 +10702,7 @@
 	)
 	(symbol
 		(lib_id "amp:6.8pF")
-		(at 140.97 73.66 0)
+		(at 139.7 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8662,7 +10712,7 @@
 		(dnp no)
 		(uuid "40b5b002-06d5-45ac-b005-d346ccc5362a")
 		(property "Reference" "C14"
-			(at 142.748 72.644 0)
+			(at 141.478 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8673,7 +10723,7 @@
 			)
 		)
 		(property "Value" "6.8pF"
-			(at 142.748 75.184 0)
+			(at 141.478 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8684,7 +10734,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 141.9352 77.47 0)
+			(at 140.6652 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8695,7 +10745,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H6R8WB01-01A-EN_PDF_CERAMICCAPACITORSMD"
-			(at 140.97 73.66 0)
+			(at 139.7 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8706,7 +10756,7 @@
 			)
 		)
 		(property "Description" "50V 6.8pF C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 140.97 73.66 0)
+			(at 139.7 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8717,7 +10767,7 @@
 			)
 		)
 		(property "MFP" "GJM1555C1H6R8WB01D"
-			(at 140.97 73.66 0)
+			(at 139.7 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8728,7 +10778,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 140.97 73.66 0)
+			(at 139.7 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8739,7 +10789,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GJM1555C1H6R8WB01D"
-			(at 140.97 73.66 0)
+			(at 139.7 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8750,7 +10800,7 @@
 			)
 		)
 		(property "LCSCPart" "C2169817"
-			(at 140.97 73.66 0)
+			(at 139.7 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8777,7 +10827,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 66.04 49.53 0)
+		(at 64.77 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8787,7 +10837,7 @@
 		(dnp no)
 		(uuid "42044392-9c3e-42b4-8d2f-c8dbe19b33cc")
 		(property "Reference" "#PWR03"
-			(at 66.04 55.88 0)
+			(at 64.77 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8798,7 +10848,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 66.04 52.578 90)
+			(at 64.77 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8809,7 +10859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 49.53 0)
+			(at 64.77 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8820,7 +10870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 49.53 0)
+			(at 64.77 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8831,7 +10881,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 49.53 0)
+			(at 64.77 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8854,9 +10904,132 @@
 		)
 	)
 	(symbol
+		(lib_id "amp:62pF")
+		(at 29.21 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4282ccca-3313-468a-a052-5ceb9af85d91")
+		(property "Reference" "C21"
+			(at 28.702 134.874 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "62pF"
+			(at 28.194 136.652 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 29.21 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1030_CBR_SMD"
+			(at 29.21 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62 pF ±1% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 29.21 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" "CBR06C620F5GAC"
+			(at 29.21 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "KEMET"
+			(at 29.21 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OctopartURL" "https://octopart.com/part/kemet/CBR06C620F5GAC"
+			(at 29.21 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSCPart" "C2171209"
+			(at 29.21 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13b13bc8-0a7e-483c-92e0-6d9479e24cda")
+		)
+		(pin "2"
+			(uuid "ba228578-f792-40b2-bbc8-828075cfe593")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/25c93556-9645-451f-b1cc-68bc7304ee85"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "1nH_1")
 		(lib_id "amp:1nH")
-		(at 46.99 31.75 0)
-		(mirror x)
+		(at 45.72 35.56 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8866,7 +11039,7 @@
 		(dnp no)
 		(uuid "450e51d2-1637-4263-acbf-94fbaf9b614a")
 		(property "Reference" "L1"
-			(at 49.53 26.416 0)
+			(at 48.768 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8876,7 +11049,7 @@
 			)
 		)
 		(property "Value" "1nH"
-			(at 49.53 28.448 0)
+			(at 48.006 33.782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8886,7 +11059,7 @@
 			)
 		)
 		(property "Footprint" "amp:LQG15WH0N7B02D"
-			(at 63.5 -64.44 0)
+			(at 62.23 131.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8898,7 +11071,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243B-9101_PDF_INDUCTOR"
-			(at 63.5 -164.44 0)
+			(at 62.23 231.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8910,7 +11083,7 @@
 			)
 		)
 		(property "Description" "10GHz 1A 1nH 70mΩ 8@100MHz 0402 Inductors (SMD) ROHS"
-			(at 57.15 29.464 0)
+			(at 55.88 37.846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8921,7 +11094,7 @@
 			)
 		)
 		(property "MFP" "LQG15HH1N0B02D"
-			(at 63.5 -464.44 0)
+			(at 62.23 531.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8933,7 +11106,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 63.5 -564.44 0)
+			(at 62.23 631.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8945,7 +11118,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/LQG15HH1N0B02D"
-			(at 63.5 -664.44 0)
+			(at 62.23 731.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8957,7 +11130,7 @@
 			)
 		)
 		(property "LCSCPart" "C3910364"
-			(at 63.5 -764.44 0)
+			(at 62.23 831.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8985,7 +11158,7 @@
 	)
 	(symbol
 		(lib_id "amp:1nF")
-		(at 49.53 74.93 0)
+		(at 48.26 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8995,7 +11168,7 @@
 		(dnp no)
 		(uuid "4b2be805-eb21-4429-be28-4522f3bacb2b")
 		(property "Reference" "C5"
-			(at 51.562 73.66 0)
+			(at 50.292 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9006,7 +11179,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 51.562 76.2 0)
+			(at 50.292 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9017,7 +11190,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 50.4952 78.74 0)
+			(at 49.2252 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9028,7 +11201,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 49.53 74.93 0)
+			(at 48.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9039,7 +11212,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 74.93 0)
+			(at 48.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9050,7 +11223,7 @@
 			)
 		)
 		(property "MFP" "GRM155R71H102KA01D"
-			(at 49.53 74.93 0)
+			(at 48.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9061,7 +11234,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 49.53 74.93 0)
+			(at 48.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9072,7 +11245,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GRM155R71H102KA01D"
-			(at 49.53 74.93 0)
+			(at 48.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9083,7 +11256,7 @@
 			)
 		)
 		(property "LCSCPart" "C77018"
-			(at 49.53 74.93 0)
+			(at 48.26 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9110,7 +11283,7 @@
 	)
 	(symbol
 		(lib_id "amp:4.7pF")
-		(at 54.61 53.34 90)
+		(at 53.34 57.15 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9120,7 +11293,7 @@
 		(dnp no)
 		(uuid "4bb115aa-ccac-44d9-b9db-8868e1d27193")
 		(property "Reference" "C3"
-			(at 54.61 59.436 90)
+			(at 53.34 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9130,7 +11303,7 @@
 			)
 		)
 		(property "Value" "4.7pF"
-			(at 54.61 56.896 90)
+			(at 53.34 60.706 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9140,7 +11313,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 58.42 52.3748 0)
+			(at 57.15 56.1848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9151,7 +11324,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H4R7BB01-01A-EN_PDF_CERAMICCAPACITORSMD"
-			(at 54.61 53.34 0)
+			(at 53.34 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9162,7 +11335,7 @@
 			)
 		)
 		(property "Description" "4.7 pF ±0.1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 54.61 53.34 0)
+			(at 53.34 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9173,7 +11346,7 @@
 			)
 		)
 		(property "MFP" "GJM1555C1H4R7BB01D"
-			(at 54.61 53.34 0)
+			(at 53.34 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9184,7 +11357,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 54.61 53.34 0)
+			(at 53.34 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9195,7 +11368,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GJM1555C1H4R7BB01D"
-			(at 54.61 53.34 0)
+			(at 53.34 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9206,7 +11379,7 @@
 			)
 		)
 		(property "LCSCPart" "C161327"
-			(at 54.61 53.34 0)
+			(at 53.34 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9233,7 +11406,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 34.29 0)
+		(at 140.97 38.1 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9244,7 +11417,7 @@
 		(dnp no)
 		(uuid "4ffb844d-6586-43b8-bc99-f5ed31b068e6")
 		(property "Reference" "#PWR01"
-			(at 142.24 40.64 0)
+			(at 140.97 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9255,7 +11428,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 38.862 90)
+			(at 140.97 42.672 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9265,7 +11438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 34.29 0)
+			(at 140.97 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9276,7 +11449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 34.29 0)
+			(at 140.97 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9287,7 +11460,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 34.29 0)
+			(at 140.97 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9311,7 +11484,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 156.21 0)
+		(at 143.51 154.94 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9322,7 +11495,7 @@
 		(dnp no)
 		(uuid "55174164-92a3-401a-9f0b-be7cb89fb306")
 		(property "Reference" "#PWR06"
-			(at 140.97 162.56 0)
+			(at 143.51 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9333,7 +11506,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 161.798 90)
+			(at 143.51 160.528 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9343,7 +11516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 156.21 0)
+			(at 143.51 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9354,7 +11527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 156.21 0)
+			(at 143.51 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9365,7 +11538,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 156.21 0)
+			(at 143.51 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9389,8 +11562,7 @@
 	)
 	(symbol
 		(lib_id "amp:1.2nH")
-		(at 60.96 66.04 270)
-		(mirror x)
+		(at 59.69 69.85 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9400,7 +11572,7 @@
 		(dnp no)
 		(uuid "593f4036-aaef-4d7c-a3f0-85d4c6ca978f")
 		(property "Reference" "L2"
-			(at 61.976 62.738 90)
+			(at 58.674 66.548 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9411,7 +11583,7 @@
 			)
 		)
 		(property "Value" "1.2nH"
-			(at 61.976 64.77 90)
+			(at 58.674 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9422,7 +11594,7 @@
 			)
 		)
 		(property "Footprint" "amp:LQG15WH0N7B02D"
-			(at -35.23 49.53 0)
+			(at 155.88 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9434,7 +11606,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/inductor/JELF243B-0010_PDF_INDUCTOR"
-			(at -135.23 49.53 0)
+			(at 255.88 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9446,7 +11618,7 @@
 			)
 		)
 		(property "Description" "1.2nH 1A 6GHz 70mΩ 8@100MHz 0402 Inductors (SMD) ROHS"
-			(at 58.674 55.88 0)
+			(at 61.976 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9457,7 +11629,7 @@
 			)
 		)
 		(property "MFP" "LQG15HS1N2B02D"
-			(at -435.23 49.53 0)
+			(at 555.88 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9469,7 +11641,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at -535.23 49.53 0)
+			(at 655.88 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9481,7 +11653,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/LQG15HS1N2B02D"
-			(at -635.23 49.53 0)
+			(at 755.88 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9493,7 +11665,7 @@
 			)
 		)
 		(property "LCSCPart" "C488336"
-			(at -735.23 49.53 0)
+			(at 855.88 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9521,7 +11693,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 78.74 0)
+		(at 134.62 82.55 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9532,7 +11704,7 @@
 		(dnp no)
 		(uuid "5ca6615f-62dc-4ee3-802a-051d031bb9a1")
 		(property "Reference" "#PWR05"
-			(at 135.89 85.09 0)
+			(at 134.62 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9543,7 +11715,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 84.328 90)
+			(at 134.62 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9553,7 +11725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 78.74 0)
+			(at 134.62 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9564,7 +11736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 78.74 0)
+			(at 134.62 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9575,7 +11747,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 78.74 0)
+			(at 134.62 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9599,7 +11771,7 @@
 	)
 	(symbol
 		(lib_id "amp:100pF")
-		(at 144.78 52.07 0)
+		(at 143.51 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9609,7 +11781,7 @@
 		(dnp no)
 		(uuid "61f1e033-a998-442b-9aac-e872907ad2ce")
 		(property "Reference" "C9"
-			(at 146.812 50.8 0)
+			(at 145.542 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9620,7 +11792,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 146.812 53.34 0)
+			(at 145.542 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9631,7 +11803,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 145.7452 55.88 0)
+			(at 144.4752 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9642,7 +11814,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 144.78 52.07 0)
+			(at 143.51 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9653,7 +11825,7 @@
 			)
 		)
 		(property "Description" "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 144.78 52.07 0)
+			(at 143.51 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9664,7 +11836,7 @@
 			)
 		)
 		(property "MFP" "GRM1555C1H101JA01J"
-			(at 144.78 52.07 0)
+			(at 143.51 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9675,7 +11847,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 144.78 52.07 0)
+			(at 143.51 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9686,7 +11858,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GRM1555C1H101JA01J"
-			(at 144.78 52.07 0)
+			(at 143.51 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9697,7 +11869,7 @@
 			)
 		)
 		(property "LCSCPart" "C3892243"
-			(at 144.78 52.07 0)
+			(at 143.51 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9723,8 +11895,344 @@
 		)
 	)
 	(symbol
+		(lib_id "amp:132365-10")
+		(at 246.38 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68741b5a-f139-4209-9d71-c98bd2ae5660")
+		(property "Reference" "J1"
+			(at 245.999 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "132365-10"
+			(at 245.999 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "amp:CONN_132365-10_AMP"
+			(at 248.412 64.262 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.amphenolrf.com/en-us/assets/file/4065786540/"
+			(at 246.38 66.548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "SMA Connector Receptacle, Male Pin 50 Ohms Board Edge, End Launch Solder Tab"
+			(at 246.38 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" "132365-10"
+			(at 246.38 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "Amphenol RF"
+			(at 246.38 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OctopartURL" "https://octopart.com/part/amphenol-rf/132365-10"
+			(at 246.38 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSCPart" "C3172997"
+			(at 246.38 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6c4fc5f-b9d3-44f1-a7d4-b16d6d8c5aaa")
+		)
+		(pin "3_1"
+			(uuid "62ed06b9-3c5e-4814-931f-754a4340cd58")
+		)
+		(pin "2_2"
+			(uuid "f63a3296-9a91-43ef-bcfe-8b77c572c63e")
+		)
+		(pin "3_2"
+			(uuid "751d38c6-22da-4928-9c35-acd16941e93a")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/25c93556-9645-451f-b1cc-68bc7304ee85"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "amp:62pF")
+		(at 77.47 137.16 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74f2ef77-8c91-467e-bfda-664463a8b434")
+		(property "Reference" "C22"
+			(at 74.93 135.8962 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "62pF"
+			(at 74.93 138.4362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 77.47 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1030_CBR_SMD"
+			(at 77.47 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62 pF ±1% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 77.47 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" "CBR06C620F5GAC"
+			(at 77.47 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "KEMET"
+			(at 77.47 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OctopartURL" "https://octopart.com/part/kemet/CBR06C620F5GAC"
+			(at 77.47 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSCPart" "C2171209"
+			(at 77.47 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8acd753a-0402-496b-94f1-ea617674e617")
+		)
+		(pin "2"
+			(uuid "e3b60743-17d7-4f49-8d97-fc86c576fb8b")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/25c93556-9645-451f-b1cc-68bc7304ee85"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 142.24 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7c454d14-6c37-4e20-889a-9c4727b0b64f")
+		(property "Reference" "#PWR012"
+			(at 80.01 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 147.828 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43134c0a-b56a-4f9b-80b8-bc87d8a79d8c")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/25c93556-9645-451f-b1cc-68bc7304ee85"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "amp:10uF")
-		(at 167.64 24.13 270)
+		(at 166.37 27.94 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9735,7 +12243,7 @@
 		(fields_autoplaced yes)
 		(uuid "7dc540a2-9ba3-4cef-aba7-f8e309c44f60")
 		(property "Reference" "C8"
-			(at 171.45 26.1873 90)
+			(at 170.18 29.9973 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9746,7 +12254,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 171.45 28.7273 90)
+			(at 170.18 32.5373 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9757,7 +12265,7 @@
 			)
 		)
 		(property "Footprint" "amp:TAJA_AVX"
-			(at 167.64 24.13 0)
+			(at 166.37 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9769,7 +12277,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
-			(at 167.64 24.13 0)
+			(at 166.37 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9781,7 +12289,7 @@
 			)
 		)
 		(property "Description" "-55℃~+125℃ 10uF 4Ω@100kHz 6.3V ±10% CASE-A-3216-18(mm) Tantalum Capacitors ROHS"
-			(at 167.64 24.13 0)
+			(at 166.37 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9792,7 +12300,7 @@
 			)
 		)
 		(property "MFP" "TAJA106K006RNJ"
-			(at 167.64 24.13 0)
+			(at 166.37 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9803,7 +12311,7 @@
 			)
 		)
 		(property "MFN" "KYOCERA AVX"
-			(at 167.64 24.13 0)
+			(at 166.37 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9814,7 +12322,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/kyocera-avx/TAJA106K006RNJ"
-			(at 167.64 24.13 0)
+			(at 166.37 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9825,7 +12333,7 @@
 			)
 		)
 		(property "LCSCPart" "C99352"
-			(at 167.64 24.13 0)
+			(at 166.37 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9852,7 +12360,7 @@
 	)
 	(symbol
 		(lib_id "amp:MAX2633EUT+T")
-		(at 58.42 134.62 0)
+		(at 55.88 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9863,7 +12371,7 @@
 		(fields_autoplaced yes)
 		(uuid "7eaf66a4-fd7b-4dda-a91e-25fc97684938")
 		(property "Reference" "U2"
-			(at 57.785 121.92 0)
+			(at 55.245 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9873,7 +12381,7 @@
 			)
 		)
 		(property "Value" "MAX2633EUT+T"
-			(at 57.785 124.46 0)
+			(at 55.245 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9883,7 +12391,7 @@
 			)
 		)
 		(property "Footprint" "amp:21-0058I_MXM"
-			(at 36.83 127.508 0)
+			(at 34.29 122.428 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9895,7 +12403,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max2630-max2633.pdf"
-			(at 36.83 127.508 0)
+			(at 34.29 122.428 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9907,7 +12415,7 @@
 			)
 		)
 		(property "Description" "RF Amplifier IC Cellular, VHF, GPS, ISM, PCS, Set Top Box, WLAN, WLL 100MHz ~ 1GHz SOT-23-6"
-			(at 58.42 134.62 0)
+			(at 55.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9918,7 +12426,7 @@
 			)
 		)
 		(property "JLCPart" "C490978"
-			(at 58.42 134.62 0)
+			(at 55.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9929,7 +12437,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/analog-devices/MAX2633EUT+T"
-			(at 58.42 134.62 0)
+			(at 55.88 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9968,7 +12476,7 @@
 	)
 	(symbol
 		(lib_id "amp:15pF")
-		(at 130.81 73.66 0)
+		(at 129.54 77.47 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -9979,7 +12487,7 @@
 		(dnp no)
 		(uuid "83254fc4-815c-4d2b-b7ef-132750ad5586")
 		(property "Reference" "C13"
-			(at 128.27 72.644 0)
+			(at 127 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9990,7 +12498,7 @@
 			)
 		)
 		(property "Value" "15pF"
-			(at 128.27 74.676 0)
+			(at 127 78.486 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10001,7 +12509,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 129.8448 77.47 0)
+			(at 128.5748 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10012,7 +12520,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1H150FB01-01A-EN_PDF_CERAMICCAPACITORSMD"
-			(at 130.81 73.66 0)
+			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10023,7 +12531,7 @@
 			)
 		)
 		(property "Description" "15pF 50V C0G ±1% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 130.81 73.66 0)
+			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10034,7 +12542,7 @@
 			)
 		)
 		(property "MFP" "GJM1555C1H150FB01D"
-			(at 130.81 73.66 0)
+			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10045,7 +12553,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 130.81 73.66 0)
+			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10056,7 +12564,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GJM1555C1H150FB01D"
-			(at 130.81 73.66 0)
+			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10067,7 +12575,7 @@
 			)
 		)
 		(property "LCSCPart" "C441742"
-			(at 130.81 73.66 0)
+			(at 129.54 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10094,7 +12602,7 @@
 	)
 	(symbol
 		(lib_id "amp:1nF")
-		(at 156.21 27.94 0)
+		(at 154.94 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10105,7 +12613,7 @@
 		(fields_autoplaced yes)
 		(uuid "912a13d7-59dd-4768-9e6e-3b6e5f8f237e")
 		(property "Reference" "C7"
-			(at 160.02 26.6699 0)
+			(at 158.75 30.4799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10116,7 +12624,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 160.02 29.2099 0)
+			(at 158.75 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10127,7 +12635,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 157.1752 31.75 0)
+			(at 155.9052 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10138,7 +12646,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 156.21 27.94 0)
+			(at 154.94 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10149,7 +12657,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 156.21 27.94 0)
+			(at 154.94 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10160,7 +12668,7 @@
 			)
 		)
 		(property "MFP" "GRM155R71H102KA01D"
-			(at 156.21 27.94 0)
+			(at 154.94 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10171,7 +12679,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 156.21 27.94 0)
+			(at 154.94 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10182,7 +12690,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GRM155R71H102KA01D"
-			(at 156.21 27.94 0)
+			(at 154.94 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10193,7 +12701,7 @@
 			)
 		)
 		(property "LCSCPart" "C77018"
-			(at 156.21 27.94 0)
+			(at 154.94 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10220,7 +12728,7 @@
 	)
 	(symbol
 		(lib_id "amp:0.5pF")
-		(at 54.61 38.1 0)
+		(at 53.34 41.91 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -10231,7 +12739,7 @@
 		(dnp no)
 		(uuid "97d67576-bfee-4174-a741-3c2f0b4dcd63")
 		(property "Reference" "C2"
-			(at 51.308 36.576 0)
+			(at 50.038 40.386 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10242,7 +12750,7 @@
 			)
 		)
 		(property "Value" "0.5pF"
-			(at 51.308 39.116 0)
+			(at 50.038 42.926 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10253,7 +12761,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 53.6448 41.91 0)
+			(at 52.3748 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10264,7 +12772,7 @@
 			)
 		)
 		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GJM1555C1HR50WB01-01A-EN_PDF_CERAMICCAPACITORSMD"
-			(at 54.61 38.1 0)
+			(at 53.34 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10275,7 +12783,7 @@
 			)
 		)
 		(property "Description" "0.5 pF ±0.05pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 54.61 38.1 0)
+			(at 53.34 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10286,7 +12794,7 @@
 			)
 		)
 		(property "MFP" "GJM1555C1HR50WB01D"
-			(at 54.61 38.1 0)
+			(at 53.34 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10297,7 +12805,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 54.61 38.1 0)
+			(at 53.34 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10308,7 +12816,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GJM1555C1HR50WB01D"
-			(at 54.61 38.1 0)
+			(at 53.34 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10319,7 +12827,7 @@
 			)
 		)
 		(property "LCSCPart" "C76912"
-			(at 54.61 38.1 0)
+			(at 53.34 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10346,7 +12854,7 @@
 	)
 	(symbol
 		(lib_id "amp:100pF")
-		(at 41.91 31.75 270)
+		(at 40.64 35.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10356,7 +12864,7 @@
 		(dnp no)
 		(uuid "9c109227-da51-4f8b-92f3-356036dcdc4a")
 		(property "Reference" "C1"
-			(at 41.91 26.416 90)
+			(at 40.64 30.226 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10366,7 +12874,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 41.91 28.448 90)
+			(at 40.64 32.258 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10376,7 +12884,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 38.1 32.7152 0)
+			(at 36.83 36.5252 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10387,7 +12895,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 41.91 31.75 0)
+			(at 40.64 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10398,7 +12906,7 @@
 			)
 		)
 		(property "Description" "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 41.91 31.75 0)
+			(at 40.64 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10409,7 +12917,7 @@
 			)
 		)
 		(property "MFP" "GRM1555C1H101JA01J"
-			(at 41.91 31.75 0)
+			(at 40.64 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10420,7 +12928,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 41.91 31.75 0)
+			(at 40.64 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10431,7 +12939,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GRM1555C1H101JA01J"
-			(at 41.91 31.75 0)
+			(at 40.64 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10442,7 +12950,7 @@
 			)
 		)
 		(property "LCSCPart" "C3892243"
-			(at 41.91 31.75 0)
+			(at 40.64 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10468,8 +12976,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 54.61 41.91 0)
+		(lib_id "Device:R_Small")
+		(at 82.55 137.16 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10477,31 +12985,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a4add53f-c141-4710-98da-3452d1d58a8b")
-		(property "Reference" "#PWR04"
-			(at 54.61 48.26 0)
-			(hide yes)
+		(fields_autoplaced yes)
+		(uuid "9f3e167c-008b-43c6-827d-cc77aeb1b624")
+		(property "Reference" "R1"
+			(at 85.09 135.8899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.016 1.016)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 54.61 44.958 90)
+		(property "Value" "R_Small"
+			(at 85.09 138.4299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 41.91 0)
+			(at 82.55 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10512,7 +13021,88 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 41.91 0)
+			(at 82.55 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 82.55 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "79b2bed2-278d-411a-a97b-5a433ad08381")
+		)
+		(pin "2"
+			(uuid "60044f94-b056-488a-b42f-4406e920e182")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/25c93556-9645-451f-b1cc-68bc7304ee85"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a4add53f-c141-4710-98da-3452d1d58a8b")
+		(property "Reference" "#PWR04"
+			(at 53.34 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 48.768 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10523,7 +13113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 41.91 0)
+			(at 53.34 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10547,7 +13137,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 54.61 0)
+		(at 34.29 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10555,9 +13145,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ad2640eb-5ba5-4248-8060-b4b64209566e")
-		(property "Reference" "#PWR07"
-			(at 45.72 60.96 0)
+		(uuid "a79b366d-c8b8-4c77-b996-4e6dc4d8f1b1")
+		(property "Reference" "#PWR011"
+			(at 34.29 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10568,18 +13158,17 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.7199 58.42 90)
+			(at 34.29 140.208 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 54.61 0)
+			(at 34.29 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10590,7 +13179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 54.61 0)
+			(at 34.29 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10601,7 +13190,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 54.61 0)
+			(at 34.29 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76384801-4d04-48da-be15-b0884d4886b1")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/25c93556-9645-451f-b1cc-68bc7304ee85"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad2640eb-5ba5-4248-8060-b4b64209566e")
+		(property "Reference" "#PWR07"
+			(at 44.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.4499 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10624,8 +13291,132 @@
 		)
 	)
 	(symbol
+		(lib_id "amp:62pF")
+		(at 78.74 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be59f3ce-124e-41b1-a96d-eb82238f3be9")
+		(property "Reference" "C20"
+			(at 78.7336 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "62pF"
+			(at 78.7336 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 78.74 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1030_CBR_SMD"
+			(at 78.74 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "62 pF ±1% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 78.74 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" "CBR06C620F5GAC"
+			(at 78.74 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "KEMET"
+			(at 78.74 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OctopartURL" "https://octopart.com/part/kemet/CBR06C620F5GAC"
+			(at 78.74 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSCPart" "C2171209"
+			(at 78.74 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e584735a-c631-4b29-9632-aca943fe4e6e")
+		)
+		(pin "2"
+			(uuid "6c6dde64-90a7-4472-ba3b-0d96a5d180bb")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/25c93556-9645-451f-b1cc-68bc7304ee85"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "amp:10uF")
-		(at 175.26 48.26 270)
+		(at 173.99 52.07 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10635,7 +13426,7 @@
 		(dnp no)
 		(uuid "bf51e677-3d69-45b4-b04a-ebf430b621cb")
 		(property "Reference" "C12"
-			(at 178.054 50.8 90)
+			(at 176.784 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10646,7 +13437,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 178.054 53.34 90)
+			(at 176.784 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10657,7 +13448,7 @@
 			)
 		)
 		(property "Footprint" "amp:TAJA_AVX"
-			(at 175.26 48.26 0)
+			(at 173.99 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10669,7 +13460,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
-			(at 175.26 48.26 0)
+			(at 173.99 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10681,7 +13472,7 @@
 			)
 		)
 		(property "Description" "-55℃~+125℃ 10uF 4Ω@100kHz 6.3V ±10% CASE-A-3216-18(mm) Tantalum Capacitors ROHS"
-			(at 175.26 48.26 0)
+			(at 173.99 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10692,7 +13483,7 @@
 			)
 		)
 		(property "MFP" "TAJA106K006RNJ"
-			(at 175.26 48.26 0)
+			(at 173.99 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10703,7 +13494,7 @@
 			)
 		)
 		(property "MFN" "KYOCERA AVX"
-			(at 175.26 48.26 0)
+			(at 173.99 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10714,7 +13505,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/kyocera-avx/TAJA106K006RNJ"
-			(at 175.26 48.26 0)
+			(at 173.99 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10725,7 +13516,7 @@
 			)
 		)
 		(property "LCSCPart" "C99352"
-			(at 175.26 48.26 0)
+			(at 173.99 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10752,7 +13543,7 @@
 	)
 	(symbol
 		(lib_id "amp:100pF")
-		(at 144.78 27.94 0)
+		(at 143.51 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10762,7 +13553,7 @@
 		(dnp no)
 		(uuid "c25d512c-5c62-437e-b5f6-bae19a2a5ee8")
 		(property "Reference" "C6"
-			(at 147.828 26.67 0)
+			(at 146.558 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10773,7 +13564,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 147.828 29.21 0)
+			(at 146.558 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10784,7 +13575,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 145.7452 31.75 0)
+			(at 144.4752 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10795,7 +13586,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 144.78 27.94 0)
+			(at 143.51 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10806,7 +13597,7 @@
 			)
 		)
 		(property "Description" "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 144.78 27.94 0)
+			(at 143.51 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10817,7 +13608,7 @@
 			)
 		)
 		(property "MFP" "GRM1555C1H101JA01J"
-			(at 144.78 27.94 0)
+			(at 143.51 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10828,7 +13619,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 144.78 27.94 0)
+			(at 143.51 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10839,7 +13630,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GRM1555C1H101JA01J"
-			(at 144.78 27.94 0)
+			(at 143.51 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10850,7 +13641,7 @@
 			)
 		)
 		(property "LCSCPart" "C3892243"
-			(at 144.78 27.94 0)
+			(at 143.51 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10877,7 +13668,7 @@
 	)
 	(symbol
 		(lib_id "amp:100pF")
-		(at 148.59 69.85 90)
+		(at 147.32 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10887,7 +13678,7 @@
 		(dnp no)
 		(uuid "cea23bc6-5f5e-4401-8107-991d876e86f3")
 		(property "Reference" "C18"
-			(at 148.59 64.516 90)
+			(at 147.32 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10897,7 +13688,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 148.59 66.802 90)
+			(at 147.32 70.612 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10907,7 +13698,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 152.4 68.8848 0)
+			(at 151.13 72.6948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10918,7 +13709,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 148.59 69.85 0)
+			(at 147.32 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10929,7 +13720,7 @@
 			)
 		)
 		(property "Description" "100 pF ±5% 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric)"
-			(at 148.59 69.85 0)
+			(at 147.32 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10940,7 +13731,7 @@
 			)
 		)
 		(property "MFP" "GRM1555C1H101JA01J"
-			(at 148.59 69.85 0)
+			(at 147.32 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10951,7 +13742,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 148.59 69.85 0)
+			(at 147.32 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10962,7 +13753,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GRM1555C1H101JA01J"
-			(at 148.59 69.85 0)
+			(at 147.32 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10973,7 +13764,7 @@
 			)
 		)
 		(property "LCSCPart" "C3892243"
-			(at 148.59 69.85 0)
+			(at 147.32 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11000,7 +13791,7 @@
 	)
 	(symbol
 		(lib_id "amp:RLM-23-1WL+")
-		(at 140.97 137.16 0)
+		(at 143.51 135.89 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11011,7 +13802,7 @@
 		(dnp no)
 		(uuid "dc690bac-e3de-45b7-a34a-15c24a7ecf5f")
 		(property "Reference" "U3"
-			(at 140.97 111.76 0)
+			(at 143.51 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11021,7 +13812,7 @@
 			)
 		)
 		(property "Value" "RLM-23-1WL+"
-			(at 140.97 114.3 0)
+			(at 143.51 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11031,7 +13822,7 @@
 			)
 		)
 		(property "Footprint" "amp:RLM231WL"
-			(at 104.14 216.84 0)
+			(at 106.68 215.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11043,7 +13834,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.minicircuits.com/WebStore/dashboard.html?model=RLM-23-1WL%2B"
-			(at 104.14 316.84 0)
+			(at 106.68 315.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11055,7 +13846,7 @@
 			)
 		)
 		(property "Description" "+5 to +30 dBm Limiter 50 Broadband 100 to 2500 MHz"
-			(at 170.688 102.87 0)
+			(at 173.228 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11066,7 +13857,7 @@
 			)
 		)
 		(property "MFN" "Mini-Circuits"
-			(at 104.14 616.84 0)
+			(at 106.68 615.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11078,7 +13869,7 @@
 			)
 		)
 		(property "MFP" "RLM-23-1WL+"
-			(at 104.14 716.84 0)
+			(at 106.68 715.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11090,7 +13881,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/mini-circuits/RLM-23-1WL+"
-			(at 171.196 105.918 0)
+			(at 173.736 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11101,7 +13892,7 @@
 			)
 		)
 		(property "LCSCPart" "C7288002"
-			(at 167.386 105.918 0)
+			(at 169.926 104.648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11170,7 +13961,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 72.39 0)
+		(at 80.01 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11180,7 +13971,7 @@
 		(dnp no)
 		(uuid "de06d018-5d4b-487c-8bb5-ff9956eb6e8c")
 		(property "Reference" "#PWR010"
-			(at 81.28 78.74 0)
+			(at 80.01 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11191,7 +13982,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 75.438 90)
+			(at 80.01 79.248 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11202,7 +13993,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 72.39 0)
+			(at 80.01 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11213,7 +14004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 72.39 0)
+			(at 80.01 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11224,7 +14015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 72.39 0)
+			(at 80.01 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11248,7 +14039,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 49.53 81.28 0)
+		(at 48.26 85.09 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11259,7 +14050,7 @@
 		(dnp no)
 		(uuid "e1c24e3d-b526-4981-8fb8-8ae5fa5837ec")
 		(property "Reference" "#PWR08"
-			(at 49.53 87.63 0)
+			(at 48.26 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11270,7 +14061,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 49.53 86.868 90)
+			(at 48.26 90.678 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11280,7 +14071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 81.28 0)
+			(at 48.26 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11291,7 +14082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 81.28 0)
+			(at 48.26 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11302,7 +14093,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 49.53 81.28 0)
+			(at 48.26 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11326,7 +14117,7 @@
 	)
 	(symbol
 		(lib_id "amp:10uF")
-		(at 41.91 71.12 270)
+		(at 40.64 74.93 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11336,7 +14127,7 @@
 		(dnp no)
 		(uuid "e399a117-4c42-42a5-beec-c4f3ca207d03")
 		(property "Reference" "C15"
-			(at 33.782 73.914 90)
+			(at 32.512 77.724 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11347,7 +14138,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 33.782 76.454 90)
+			(at 32.512 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11358,7 +14149,7 @@
 			)
 		)
 		(property "Footprint" "amp:TAJA_AVX"
-			(at 41.91 71.12 0)
+			(at 40.64 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11370,7 +14161,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheets.kyocera-avx.com/TAJ.pdf"
-			(at 41.91 71.12 0)
+			(at 40.64 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11382,7 +14173,7 @@
 			)
 		)
 		(property "Description" "-55℃~+125℃ 10uF 4Ω@100kHz 6.3V ±10% CASE-A-3216-18(mm) Tantalum Capacitors ROHS"
-			(at 41.91 71.12 0)
+			(at 40.64 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11393,7 +14184,7 @@
 			)
 		)
 		(property "MFP" "TAJA106K006RNJ"
-			(at 41.91 71.12 0)
+			(at 40.64 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11404,7 +14195,7 @@
 			)
 		)
 		(property "MFN" "KYOCERA AVX"
-			(at 41.91 71.12 0)
+			(at 40.64 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11415,7 +14206,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/kyocera-avx/TAJA106K006RNJ"
-			(at 41.91 71.12 0)
+			(at 40.64 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11426,7 +14217,7 @@
 			)
 		)
 		(property "LCSCPart" "C99352"
-			(at 41.91 71.12 0)
+			(at 40.64 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11453,7 +14244,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 58.42 0)
+		(at 158.75 62.23 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -11464,7 +14255,7 @@
 		(dnp no)
 		(uuid "e7176bf0-6a69-4803-b839-ca831bd080e8")
 		(property "Reference" "#PWR09"
-			(at 160.02 64.77 0)
+			(at 158.75 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11475,7 +14266,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 63.5 90)
+			(at 158.75 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11485,7 +14276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 58.42 0)
+			(at 158.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11496,7 +14287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 58.42 0)
+			(at 158.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11507,7 +14298,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 58.42 0)
+			(at 158.75 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11531,7 +14322,7 @@
 	)
 	(symbol
 		(lib_id "amp:10nF")
-		(at 165.1 52.07 0)
+		(at 163.83 55.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11541,7 +14332,7 @@
 		(dnp no)
 		(uuid "f1cda6c8-1fe3-4240-8e47-37057af7b586")
 		(property "Reference" "C11"
-			(at 167.132 50.8 0)
+			(at 165.862 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11552,7 +14343,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 167.132 53.34 0)
+			(at 165.862 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11563,7 +14354,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 166.0652 55.88 0)
+			(at 164.7952 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11574,7 +14365,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 165.1 52.07 0)
+			(at 163.83 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11585,7 +14376,7 @@
 			)
 		)
 		(property "Description" "10000 pF ±10% 25V Ceramic Capacitor X7R 0402 (1005 Metric)"
-			(at 165.1 52.07 0)
+			(at 163.83 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11596,7 +14387,7 @@
 			)
 		)
 		(property "MFP" "GRM155R71E103KA01D"
-			(at 165.1 52.07 0)
+			(at 163.83 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11607,7 +14398,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 165.1 52.07 0)
+			(at 163.83 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11618,7 +14409,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GRM155R71E103KA01D"
-			(at 165.1 52.07 0)
+			(at 163.83 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11629,7 +14420,7 @@
 			)
 		)
 		(property "LCSCPart" "C77013"
-			(at 165.1 52.07 0)
+			(at 163.83 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11656,7 +14447,7 @@
 	)
 	(symbol
 		(lib_id "amp:1nF")
-		(at 77.47 58.42 270)
+		(at 76.2 62.23 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11666,7 +14457,7 @@
 		(dnp no)
 		(uuid "f37b197b-62b8-4365-a73d-4d916a3b4ed2")
 		(property "Reference" "C16"
-			(at 77.47 52.578 90)
+			(at 76.2 56.388 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11676,7 +14467,7 @@
 			)
 		)
 		(property "Value" "1nF"
-			(at 77.47 55.118 90)
+			(at 76.2 58.928 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11686,7 +14477,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 73.66 59.3852 0)
+			(at 72.39 63.1952 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11697,7 +14488,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
-			(at 77.47 58.42 0)
+			(at 76.2 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11708,7 +14499,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 77.47 58.42 0)
+			(at 76.2 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11719,7 +14510,7 @@
 			)
 		)
 		(property "MFP" "GRM155R71H102KA01D"
-			(at 77.47 58.42 0)
+			(at 76.2 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11730,7 +14521,7 @@
 			)
 		)
 		(property "MFN" "Murata Electronics"
-			(at 77.47 58.42 0)
+			(at 76.2 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11741,7 +14532,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/murata/GRM155R71H102KA01D"
-			(at 77.47 58.42 0)
+			(at 76.2 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11752,7 +14543,7 @@
 			)
 		)
 		(property "LCSCPart" "C77018"
-			(at 77.47 58.42 0)
+			(at 76.2 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
