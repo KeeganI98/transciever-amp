@@ -6438,7 +6438,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 2.54 0)
+			(at -12.7 12.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6448,7 +6448,7 @@
 			)
 		)
 		(property "Value" "TPS61221DCKR"
-			(at 0 0 0)
+			(at -4.826 10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6458,7 +6458,7 @@
 			)
 		)
 		(property "Footprint" "amp:DCK0006A"
-			(at 0 0 0)
+			(at -2.286 12.954 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -6470,7 +6470,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps61221"
-			(at 0 0 0)
+			(at 0.762 13.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -6482,7 +6482,7 @@
 			)
 		)
 		(property "Description" "-40℃~+125℃@(TJ) 1 200mA 2MHz 3.3V 5uA 700mV~5.5V Boost Boost Built-in Fixed Overcurrent Protection、Light load efficient mode Yes SC-70-6(SOT-363) DC-DC Converters ROHS"
-			(at 0 0 0)
+			(at -4.572 14.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -6493,7 +6493,7 @@
 			)
 		)
 		(property "MFP" "TPS61221DCKR"
-			(at 0 0 0)
+			(at -2.794 14.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -6504,7 +6504,7 @@
 			)
 		)
 		(property "MFN" "Texas Instruments"
-			(at 0 0 0)
+			(at -1.524 14.224 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -6515,7 +6515,7 @@
 			)
 		)
 		(property "OctopartURL" "https://octopart.com/part/texas-instruments/TPS61221DCKR"
-			(at 0 0 0)
+			(at -5.842 14.732 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -6526,7 +6526,7 @@
 			)
 		)
 		(property "LCSCPart" "C37055"
-			(at 0 0 0)
+			(at -2.032 13.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -6561,7 +6561,7 @@
 		(symbol "TPS61221DCKR_0_1"
 			(polyline
 				(pts
-					(xy -12.7 15.24) (xy -12.7 -15.24)
+					(xy -13.97 8.89) (xy -13.97 -10.414)
 				)
 				(stroke
 					(width 0.1016)
@@ -6573,7 +6573,7 @@
 			)
 			(polyline
 				(pts
-					(xy -12.7 -15.24) (xy 15.24 -15.24)
+					(xy -13.97 -10.414) (xy 13.97 -10.414)
 				)
 				(stroke
 					(width 0.1016)
@@ -6585,7 +6585,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 15.24) (xy -12.7 15.24)
+					(xy 13.97 8.89) (xy -13.97 8.89)
 				)
 				(stroke
 					(width 0.1016)
@@ -6597,7 +6597,7 @@
 			)
 			(polyline
 				(pts
-					(xy 15.24 -15.24) (xy 15.24 15.24)
+					(xy 13.97 -10.414) (xy 13.97 8.89)
 				)
 				(stroke
 					(width 0.1016)
@@ -6608,7 +6608,7 @@
 				)
 			)
 			(pin power_in line
-				(at -17.78 10.16 0)
+				(at -19.05 0 0)
 				(length 5.08)
 				(name "VIN"
 					(effects
@@ -6626,7 +6626,7 @@
 				)
 			)
 			(pin input line
-				(at 20.32 -5.08 180)
+				(at 19.05 0 180)
 				(length 5.08)
 				(name "FB"
 					(effects
@@ -6644,7 +6644,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 -10.16 180)
+				(at 19.05 -6.35 180)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -6662,7 +6662,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 5.08 180)
+				(at 19.05 6.35 180)
 				(length 5.08)
 				(name "VOUT"
 					(effects
@@ -6680,7 +6680,7 @@
 				)
 			)
 			(pin unspecified line
-				(at 20.32 10.16 180)
+				(at -19.05 6.35 0)
 				(length 5.08)
 				(name "L"
 					(effects
@@ -6698,7 +6698,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 0 0)
+				(at -19.05 -6.35 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -6708,6 +6708,404 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TPS63051RMWR"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -0.762 14.732 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPS63051RMWR"
+			(at 0.254 12.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "amp:RMW0012A"
+			(at 0 -6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tps63051"
+			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" "Buck-Boost Switching Regulator IC Positive Fixed 3.3V 1 Output 500mA 12-VFQFN"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFP" "TPS63051RMWR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MFN" "Texas Instruments"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "OctopartURL" "https://octopart.com/part/texas-instruments/TPS63051RMWR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSCPart" "C139412"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "TPS63051RMWR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "RMW0012A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "TPS63051RMWR_0_1"
+			(polyline
+				(pts
+					(xy -12.7 11.43) (xy -12.7 -13.97)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -13.97) (xy 12.7 -13.97)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 11.43) (xy -12.7 11.43)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 -13.97) (xy 12.7 11.43)
+				)
+				(stroke
+					(width 0.2032)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -17.78 8.89 0)
+				(length 5.08)
+				(name "L1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -6.35 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 17.78 8.89 180)
+				(length 5.08)
+				(name "L2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 5.08 180)
+				(length 5.08)
+				(name "VOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 1.27 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -6.35 0)
+				(length 5.08)
+				(name "PWM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -10.16 0)
+				(length 5.08)
+				(name "SS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin open_collector line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 17.78 -10.16 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 -2.54 0)
+				(length 5.08)
+				(name "ILIM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 1.27 0)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 5.08 0)
+				(length 5.08)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
