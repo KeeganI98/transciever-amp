@@ -8620,7 +8620,7 @@
 		)
 		(uuid "c61afecf-e153-4464-bf20-d5c5fc92c618")
 	)
-	(text "NOTES:\n1.\n2.\n3.\n4. Pretend I didn't work out of main"
+	(text "NOTES:\n1. For use with LILYGO T-Beam Supreme - 915MHz\n2. \n3. \n4. Pretend I didn't work out of main"
 		(exclude_from_sim no)
 		(at 19.05 184.912 0)
 		(effects
